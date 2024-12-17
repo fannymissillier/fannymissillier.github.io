@@ -1,6 +1,6 @@
 .main-content {
   padding-bottom: 3.125rem;
-  background-color: #000000 !important; 
+  background-color: #000000; 
 }
 
 footer.footer-min {
@@ -8,7 +8,7 @@ footer.footer-min {
   bottom: 0;
   width: 100%;
   padding: 0.1875rem;
-  background-color: var(--footer-col) !important;
+  background-color: var(--footer-col);
   border-top: 1px solid var(--footer-border-col);
   text-align: center;
   color: var(--footer-text-col);
