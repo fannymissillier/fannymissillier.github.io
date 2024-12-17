@@ -6,7 +6,7 @@ layout: null
 
 :root {
   /* config file CSS variables */
-  --page-col: {{ site.page-col | default: "#000000" }};
+  --page-col: {{ site.page-col | default: "#000000" }} !important;
   --text-col: {{ site.text-col | default: "#FFFFFF" }};
   --link-col: {{ site.link-col | default: "#0099FF" }};
   --hover-col: {{ site.hover-col | default: "#00FFFF" }};
