@@ -36,6 +36,10 @@ body {
   color: #ffffff;
   position: relative;
   background-color: #000000;
+  {% if site.page-img %}
+  background-image: url({{ site.page-img | relative_url }});
+  background-attachment: fixed;
+  {% endif %}
   overflow-wrap: break-word;
   min-height: 100vh;
   display: flex;
