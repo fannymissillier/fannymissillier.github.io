@@ -1,13 +1,26 @@
 .main-content {
   padding-bottom: 3.125rem;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text color */
 }
 
+/* Footer styling */
 footer.footer-min {
   position: fixed;
   bottom: 0;
   width: 100%;
   padding: 0.1875rem;
-  background-color: #f5f5f5;
-  border-top: 1px solid #eeeeee;
+  background-color: #1c1c1c; /* Dark footer background */
+  border-top: 1px solid #333333; /* Darker border */
   text-align: center;
+  color: #ffffff; /* Light text color */
+}
+
+/* If you want to change links to be visible on dark background */
+a {
+  color: #66ccff; /* Light blue links */
+}
+
+a:hover {
+  color: #ffcc00; /* Yellow on hover */
 }
