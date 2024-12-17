@@ -10,17 +10,17 @@
 ############################
 
 # Name of website
-title: My website
+title: AdadaSurMonBidet 2024
 
 # Your name to show in the footer
-author: Some Person
+author: SAdadaSurMonBidetTeam
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "Our Team"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
