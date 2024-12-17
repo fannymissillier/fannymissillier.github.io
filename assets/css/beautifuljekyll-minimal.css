@@ -7,7 +7,7 @@ footer.footer-min {
   bottom: 0;
   width: 100%;
   padding: 0.1875rem;
-  background-color: var(--footer-col);
+  background-color: var(--footer-col) !important;
   border-top: 1px solid var(--footer-border-col);
   text-align: center;
   color: var(--footer-text-col);
