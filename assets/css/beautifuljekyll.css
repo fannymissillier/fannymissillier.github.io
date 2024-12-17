@@ -6,7 +6,7 @@ layout: null
 
 :root {
   /* config file CSS variables */
-  --page-col: {{ site.page-col | default: "#000000" }} !important;
+  --page-col: {{ site.page-col | default: "#000000" }};
   --text-col: {{ site.text-col | default: "#FFFFFF" }};
   --link-col: {{ site.link-col | default: "#0099FF" }};
   --hover-col: {{ site.hover-col | default: "#00FFFF" }};
@@ -152,7 +152,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: var(--navbar-col);
+  background-color: var(--navbar-col) !important;
   border-bottom: 1px solid var(--navbar-border-col);
   font-family: var(--header-font);
   {% if site.navbar-img %}
@@ -411,7 +411,7 @@ footer {
   border-top: 1px var(--footer-col) solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: var(--footer-col);
+  background-color: var(--footer-col) !important;
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
