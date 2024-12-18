@@ -6,8 +6,8 @@ layout: null
 
 :root {
   /* config file CSS variables */
-  --page-col: {{ site.page-col | default: "#000000" }};
-  --text-col: {{ site.text-col | default: "#FFFFFF" }};
+  --page-col: {{ site.page-col | default: "#F5F5DC" }} !important;
+  --text-col: {{ site.text-col | default: "#800000" }} !important;
   --link-col: {{ site.link-col | default: "#0099FF" }};
   --hover-col: {{ site.hover-col | default: "#00FFFF" }};
   --navbar-col: {{ site.navbar-col | default: "#000000" }} !important;
@@ -33,9 +33,9 @@ html {
 body {
   font-family: var(--body-font);
   font-size: 1.125rem;
-  color: #ffffff;
+  color: var(--text-col);
   position: relative;
-  background-color: #000000 !important;
+  background-color: #F5F5DC !important;
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
