@@ -6,6 +6,13 @@ subtitle: Our Team
 
 Hello, here's a little update for you to know who we are:
 
-![Ainhoa photo](assets/img/IMG_Ainhoa.JPG){: width="500" height="300" }
-![Amaury photo](assets/img/IMG_Amaury.JPG){: width="500" height="300" }
-![Fanny photo](assets/img/IMG_Fanny.JPG){: width="500" height="300" }
+
+<div style="display: inline-block; margin-right: 10px;">
+  <img src="assets/img/IMG_Ainhoa.JPG" alt="Ainhoa photo" width="200" height="150">
+</div>
+<div style="display: inline-block; margin-right: 10px;">
+  <img src="assets/img/IMG_Amaury.JPG" alt="Amaury photo" width="200" height="150">
+</div>
+<div style="display: inline-block;">
+  <img src="assets/img/IMG_Fanny.JPG" alt="Fanny photo" width="200" height="150">
+</div>
