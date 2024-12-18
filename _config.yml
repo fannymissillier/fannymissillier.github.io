@@ -22,8 +22,7 @@ author: AdadaSurMonBidetTeam
 navbar-links:
   Our Team: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - The Dataset: "http://www.cs.cmu.edu/~ark/personas/"
 
 ################
 # --- Logo --- #
