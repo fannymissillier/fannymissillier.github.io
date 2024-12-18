@@ -4,5 +4,4 @@ title: My website
 subtitle: This is where I will tell my friends way too much about me
 ---
 
-FARITAS !!!
-
+<iframe src="{{ site.baseurl }}plot.html" width="100%" height="800" frameborder="0"></iframe>
