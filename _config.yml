@@ -22,7 +22,8 @@ author: AdadaSurMonBidetTeam
 navbar-links:
   Our Team: "aboutme"
   Resources:
-    - The Dataset: "http://www.cs.cmu.edu/~ark/personas/"
+    - CMU Movie Summary Corpus Dataset: "http://www.cs.cmu.edu/~ark/personas/"
+    - Name Ethnicity Dataset: "https://www.kaggle.com/datasets/tommylariccia/name-ethnicity-data"
 
 ################
 # --- Logo --- #
