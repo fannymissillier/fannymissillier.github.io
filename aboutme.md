@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: AdadaSurMonBidet2024
+subtitle: Our Team
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hello, here's a little update for you to know who we are:
 
 - I rock a great mustache
 - I'm extremely loyal to my family
