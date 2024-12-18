@@ -6,7 +6,7 @@ layout: null
 
 :root {
   /* config file CSS variables */
-  --page-col: {{ site.page-col | default: "#000000" }} !important;
+  --page-col: {{ site.page-col | default: "#111111" }} !important;
   --text-col: {{ site.text-col | default: "#800000" }} !important;
   --link-col: {{ site.link-col | default: "#0099FF" }};
   --hover-col: {{ site.hover-col | default: "#00FFFF" }};
@@ -35,7 +35,7 @@ body {
   font-size: 1.125rem;
   color: #800000 !important;
   position: relative;
-  background-color: #000000 !important;
+  background-color: #111111 !important;
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
