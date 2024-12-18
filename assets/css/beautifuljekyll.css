@@ -481,7 +481,7 @@ footer .footer-custom-content {
 }
 
 .post-preview {
-  padding: 1.25rem 0;
+  padding: 1rem 0 !important;
   border-bottom: 1px solid #eee;
   overflow: hidden;
 }
@@ -543,8 +543,8 @@ footer .footer-custom-content {
 .post-preview .post-image {
   float: right;
   margin-left: 0.625rem;
-  height: 12rem;
-  width: 12rem;
+  height: 10rem !important;
+  width: 10rem !important;
 }
 .post-preview .post-image {
   filter: grayscale(40%);
