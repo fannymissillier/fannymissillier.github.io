@@ -153,9 +153,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #333333 !important;
-  color: #FFFFFF !important; 
-  border-bottom: 1px solid #333333 !important;
+  background-color: #FFFFFF !important;
+  border-bottom: 1px solid #FFFFFF !important;
   font-family: var(--header-font);
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
