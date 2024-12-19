@@ -15,8 +15,8 @@ layout: null
   --navbar-border-col: {{ site.navbar-border-col | default: "#333333" }};
   --footer-col: {{ site.footer-col | default: "#000000" }} !important;
   --footer-text-col: {{ site.footer-text-col | default: "#FFFFFF" }};
-  --footer-link-col: {{ site.footer-link-col | default: "#333333" }};
-  --footer-hover-col: {{ site.footer-hover-col | default: "#333333" }};
+  --footer-link-col: {{ site.footer-link-col | default: "#FFFFFF" }};
+  --footer-hover-col: {{ site.footer-hover-col | default: "#FFFFFF" }};
 
   /* common CSS variables */
   --body-font: 'Cormorant Garamond', 'Times New Roman', serif;
@@ -409,10 +409,10 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 1px solid #D3D3D3 !important;
+  border-top: 1px solid #333333 !important;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: #D3D3D3 !important;
+  background-color: #333333 !important;
   background-image: none !important;
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
