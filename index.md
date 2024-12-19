@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 <style>
 .header-title {
   background: url("{{ site.baseurl }}/assets/img/IMG_title.jpg") no-repeat center center;
