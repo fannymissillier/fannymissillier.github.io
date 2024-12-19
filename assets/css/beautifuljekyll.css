@@ -154,6 +154,7 @@ img {
 
 .navbar-custom {
   background-color: #333333 !important;
+  color: #FFFFFF !important; 
   border-bottom: 1px solid #333333 !important;
   font-family: var(--header-font);
   {% if site.navbar-img %}
