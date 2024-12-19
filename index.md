@@ -1,9 +1,24 @@
 ---
 layout: home
-# title: DISCOVER CHARACTERS' FEATURES BASED ON FIRST NAME
-# subtitle: This is where I will tell my friends way too much about me
+title: DISCOVER CHARACTERS' FEATURES BASED ON FIRST NAME
 ---
-<img src="{{ site.baseurl }}/assets/img/IMG_title.png" alt="Title Image" style="width:100%; max-height:300px; object-fit:cover;">
+
+<style>
+.header-title {
+  background: url("{{ site.baseurl }}/assets/img/IMG_title.jpg") no-repeat center center;
+  background-size: cover;
+  color: white; /* Ajustez selon votre image */
+  padding: 4rem 2rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+</style>
+
+<div class="header-title">
+  {{ page.title }}
+</div>
 
 <iframe src="{{ site.baseurl }}/assets/plots/presentation_data_values.html" width="100%" height="800" frameborder="0"></iframe>
 <!-- <iframe src="{{ site.baseurl }}/assets/plots/plot_presentation_data_values.html" width="100%" height="800" frameborder="0"></iframe> -->
