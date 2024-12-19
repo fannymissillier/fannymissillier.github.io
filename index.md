@@ -26,7 +26,6 @@ So, beyond first impressions, the association of first names with character trai
 <iframe src="{{ site.baseurl }}/assets/plots/movie_genre_last_letter.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/movie_genre_distribution.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/origin_distribution.html" width="100%" height="800" frameborder="0"></iframe>
-<iframe src="{{ site.baseurl }}/assets/plots/polarit_distribution.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/polarit_g_movie_genre.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/polarity_b_movie_genre.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/polarity_box_plot.html" width="100%" height="800" frameborder="0"></iframe>
