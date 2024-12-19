@@ -12,6 +12,8 @@ If you watch a series of romantic comedies, you may well start to notice a numbe
 
 So, beyond first impressions, the association of first names with character traits may in fact be much more relevant than we think. Through a number of qualitative and syntactic characteristics, we aim to show that there is no such thing as chance when choosing a first name for a film in the cinema! If I told you that Tarantino's next character had your first name, what would its attributes be? It's up to you to find out. 
 
+PREMIERES ANALYSES
+
 <iframe src="{{ site.baseurl }}/assets/plots/top1000_names.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/top10_names_country.html" width="100%" height="800" frameborder="0"></iframe>
 
