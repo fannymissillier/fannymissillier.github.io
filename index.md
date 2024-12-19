@@ -4,7 +4,7 @@ title: DISCOVER CHARACTERS' FEATURES BASED ON FIRST NAME
 cover-img: /assets/img/IMG_title.jpg
 ---
 
-FARRRRRITAS
+FARRRRRITAS MORE FARRRITAS 
 
 <iframe src="{{ site.baseurl }}/assets/plots/presentation_data_values.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/top1000_names.html" width="100%" height="800" frameborder="0"></iframe>
