@@ -10,7 +10,7 @@ layout: null
   --text-col: {{ site.text-col | default: "#FFFFFF" }} !important;
   --link-col: {{ site.link-col | default: "#FFFFFF" }} !important;
   --hover-col: {{ site.hover-col | default: "#FFFFFF" }} !important;
-  --navbar-col: {{ site.navbar-col | default: "#000000" }} !important;
+  --navbar-col: {{ site.navbar-col | default: "#FFFFFF" }} !important;
   --navbar-text-col: {{ site.navbar-text-col | default: "#FFFFFF" }};
   --navbar-border-col: {{ site.navbar-border-col | default: "#FFFFFF" }};
   --footer-col: {{ site.footer-col | default: "#000000" }} !important;
