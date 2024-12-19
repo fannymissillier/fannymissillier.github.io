@@ -35,7 +35,7 @@ body {
   font-size: 1.125rem;
   color: #800000 !important;
   position: relative;
-  background-color: #FFFFFF !important;
+  background-color: #333333 !important;
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
@@ -411,7 +411,7 @@ footer {
   border-top: 1px var(--footer-col) solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: #000000 !important;
+  background-color: #333333 !important;
   background-image: none !important;
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
