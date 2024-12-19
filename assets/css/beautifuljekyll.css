@@ -33,7 +33,7 @@ html {
 body {
   font-family: var(--body-font);
   font-size: 1.125rem;
-  color: #aa0000 !important;
+  color: #000000 !important;
   position: relative;
   background-color: #FFFFFF !important;
   {% if site.page-img %}
