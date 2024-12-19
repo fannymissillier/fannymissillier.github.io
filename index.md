@@ -1,6 +1,6 @@
 ---
 layout: home
-title: NAME PREDICTOR, the profil of a character behind his first name
+title: DISCOVER CHARACTERS' FEATURES BASED ON FIRST NAME
 # subtitle: This is where I will tell my friends way too much about me
 ---
 
