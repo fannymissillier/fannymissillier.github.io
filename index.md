@@ -7,7 +7,7 @@ title: DISCOVER CHARACTERS' FEATURES BASED ON FIRST NAME
 .header-title {
   background: url("{{ site.baseurl }}/assets/img/IMG_title.jpg") no-repeat center center;
   background-size: cover;
-  color: white; /* Ajustez selon votre image */
+  color: #FFFFFF !important; 
   padding: 4rem 2rem;
   text-align: center;
   font-size: 3rem;
