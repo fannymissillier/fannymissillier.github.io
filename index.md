@@ -29,6 +29,11 @@ If I told you that *Tarantino's* next character had **your first name**, what wo
 
 Let's start with some **interesting facts** about the most common first names used in movies. First of all, let's take a look at the most common first names in our dataset:
 
+<div class="tabs">
+  <button class="tab-button active" data-target="plot-men">Femmes</button>
+  <button class="tab-button" data-target="plot-women">Hommes</button>
+</div>
+
 <div class="tab-content">
   <div id="plot-men" class="plot-container active">
     <iframe src="{{ site.baseurl }}/assets/plots/1000_most_popular_female_names.html" class="iframe-plot"></iframe>
@@ -104,7 +109,7 @@ And it's no **coincidence**! These names are often used to embody specific **arc
 So, to better understand these connections, let’s explore the **correlations** between **first names** and **film categories**, starting by looking at the most common **first names** in each genre:
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/top_10_names_by_movie_genre.html" width="100%" height="600" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/top_10_names_by_movie_genre.html" width="100%" height="550" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 **Sarah** and **‘John’** continue to be omnipresent in all categories, but we can see that popular first names change according to **film genre**. 
@@ -142,8 +147,8 @@ Nous avons axé notre analyse sur l'**étude lexicale** des prénoms selon leur 
 Nous avons commencé notre étude en examinant les distributions des **premières** et **dernières lettres** des prénoms. Nous avons effectué une étude statistique à l’aide du test du **CHI-2** pour déterminer les éléments les plus significatifs. Voici les graphiques que nous avons obtenus, montrant les distributions des origines pour les éléments les plus significatifs (c'est-à-dire les éléments pour lesquels les distributions diffèrent le plus) :
 
 <div class="tabs">
-  <button class="tab-button active" data-target="plot-men">Hommes</button>
-  <button class="tab-button" data-target="plot-women">Femmes</button>
+  <button class="tab-button active" data-target="plot-men">First Letter</button>
+  <button class="tab-button" data-target="plot-women">Last Letter</button>
 </div>
 
 <div class="tab-content">
