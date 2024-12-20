@@ -5,7 +5,7 @@ subtitle: Our Dataset
 ---
 
 <div style="text-align:center;">
-    In this tab, take a look at the <strong>distribution</strong> of the different attributes of film characters through our dataset. <strong>Gender</strong>, <strong>origin</strong>, <strong>age</strong>... we've analysed it all to give you a unique insight into the <strong>trends** that shape characters in film!
+    In this tab, take a look at the <strong>distribution</strong> of the different attributes of film characters through our dataset. <strong>Gender</strong>, <strong>origin</strong>, <strong>age</strong>... we've analysed it all to give you a unique insight into the <strong>trends</strong> that shape characters in film!
 </div>
 
 <div>
