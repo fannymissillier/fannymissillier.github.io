@@ -23,7 +23,7 @@ If I told you that *Tarantino's* next character had **your first name**, what wo
 
 ---
 
-### **Preview**: 
+**Preview**: 
 
 Let's start with some **interesting facts** about the most common first names used in movies. First of all, let's take a look at the most common first names in our dataset:
 
@@ -34,6 +34,8 @@ PLOT TOP 1000 NAMES F + G
 ### AFFICHE "TERMINATOR"
 
 While **John** and **Sarah** are by far the most popular, in more general terms we can see that *female first names* are more evenly distributed than those given to the *male characters*. Among the latter, **John** clearly stands out, being given more than twice as many times as **‘George’**, the second most common male first name.
+
+---
 
 Let's continue by analysing how the most common first names vary according to the **country of origin** of the films, in order to see whether these choices are influenced by different *cultures*.
 
@@ -93,7 +95,7 @@ Let's take a look at the differences between first names in different film genre
 To get a good idea of these differences, let's take a look at the most common first names for each film category:
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/top_10_name_by_movie_genre.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/top_10_names_by_movie_genre.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 Sarah” and ‘John’ continue to be omnipresent in all categories, but we can see that popular first names change according to film genre. Let's analyze the syntactic characteristics of first names according to film type:
