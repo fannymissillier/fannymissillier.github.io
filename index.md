@@ -151,7 +151,6 @@ Despite these challenges, the possibilities are exciting. Imagine knowing the pe
 That’s where we come in! We’ve built a model to handle the heavy lifting for you. Just think of a name, and our model will reveal the likely features of that character based on the patterns we’ve uncovered. ADA magic at your fingertips—ready to bring characters to life in ways you’ve never imagined!
 
 
-
 ## VI. MODEL - autre titre
 
 4 TEST
