@@ -8,6 +8,8 @@ cover-img: /assets/img/IMG_title.jpg
 
 When *Tarantino* makes his films, you might imagine that he starts with the most obvious choices: the **genre** of the film, the **plot** that will unfold, or the **scenes** that will surprise us. But among these big decisions, there's another, more subtle, but just as crucial: choosing the **characters' first names**. 
 
+![Django](assets/img/quentin-tarantino-peace.gif)
+
 **Bill**, **Rick**, **Django**... how does he make his choice? Is it really a matter of chance, or does each name conceal a clue to the character's identity?  
 Take the name *“Jacky”*: do you imagine a rebellious teenager, an adorable Canadian grandmother, or a *“badass”* woman? It's interesting to note that some first names make us think of certain **stereotypes** or specific **character traits**. But what do these names reveal about the characters themselves? In the universe of cinema, each first name can have a considerable impact on the way we perceive a character.  
 
@@ -79,14 +81,12 @@ Additionally, by examining the common distribution, we find that nearly **15 tim
 
 ## II. AGE ANALYSIS - autre titre
 
-![Django](assets/img/quentin-tarantino-peace.gif)
-
 **Tastes** and **trends** evolve over the years: the names of your grandparents are likely very different from those of your younger cousins. What was original in the past is now considered **traditional**, and this evolution also influences the way characters are named in *cinema*.
 
 But then, can we associate certain names with specific **age groups**? For example, do some names appear more frequently for an *elderly* person compared to a *newborn*?
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_age.html" width="100%" height="700" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_age.html" width="100%" height="750" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 These graphs are not very **expressive**… this is probably not the right path to uncover the deepest **secrets** of *Tarantino*. However, we believe we have an **explanation** for this! 
