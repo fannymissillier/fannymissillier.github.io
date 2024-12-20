@@ -86,7 +86,7 @@ GIF d’un grand-père dans un film
 But then, can we associate certain names with specific **age groups**? For example, do some names appear more frequently for an *elderly* person compared to a *newborn*?
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_age.html" width="100%" height="500" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_age.html" width="100%" height="600" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 These graphs are not very **expressive**… this is probably not the right path to uncover the deepest **secrets** of *Tarantino*. However, we believe we have an **explanation** for this! 
@@ -171,7 +171,9 @@ This **bar plot** is very telling and shows that it is possible to isolate an **
 
 Finally, it is also possible to use the **articulatory phonetics** of first names to determine their origin. We have chosen to focus on the most telling phonetics: **affricate**, **fricative**, **liquid**, **nasal**, and **occlusive**. We therefore studied the **percentage** of first names, for each origin, that contain each of these **phonetic categories**.
 
-PLOT PHONETIC ORIGIN
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/phonetics_by_origin.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
 
 This analysis is useful, but we expected it to be more **telling**. We observe that names of **Hispanic** and **Romance** origin contain more **liquid consonants** (such as [l] and [r]), while **Slavic** and **English** names show a greater presence of **plosives** (such as [p] and [t]). **Nasals** (such as [m] and [n]) are particularly frequent in **Slavic** and **Hispanic** names, but less so in **Asian** names. On the whole, the phonetic structures of names reflect the specific features of each **origin**.
 
