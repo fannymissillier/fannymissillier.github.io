@@ -58,7 +58,7 @@ With this in mind, we have undertaken an analysis of first names by looking at t
 In the graph below, we compare the **first** and **last letters** of *female* first names with those of *male* first names.
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/first_and_last_letter_by_gender.html" width="100%" height="700" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/first_and_last_letter_by_gender.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 Several significant **differences** emerge: *Female* names are much more likely to end with an **‘a’** or **‘e’** compared to *male* names. To further explore this observation, we conducted **chi-square tests** to compare the distributions of initial and final letters between *male* and *female* names. 
