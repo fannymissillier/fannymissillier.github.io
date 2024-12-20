@@ -27,7 +27,19 @@ If I told you that *Tarantino's* next character had **your first name**, what wo
 
 Let's start with some **interesting facts** about the most common first names used in movies. First of all, let's take a look at the most common first names in our dataset:
 
-PLOT TOP 1000 NAMES F + G
+<div class="tabs">
+  <button class="tab-button active" data-target="plot-men">Hommes</button>
+  <button class="tab-button" data-target="plot-women">Femmes</button>
+</div>
+
+<div class="tab-content">
+  <div id="plot-men" class="plot-container active">
+    <iframe src="{{ site.baseurl }}/assets/plots/1000_most_poplar_female_names.html" class="iframe-plot"></iframe>
+  </div>
+  <div id="plot-women" class="plot-container">
+    <iframe src="{{ site.baseurl }}/assets/plots/1000_most_popular_male_names.html" class="iframe-plot"></iframe>
+  </div>
+</div>
 
 **Johns** and **“Sarahs”** top the list. Can you think of an iconic film that features these two names? Here's a hint: **‘Hasta La Vista Baby’**... 
 
@@ -95,7 +107,6 @@ You've probably already noticed that certain **first names** seem to be associat
 And it's no **coincidence**! These names are often used to embody specific **archetypes** in films. In fact, they frequently appear in the **‘Romance’** and **‘Action & Adventure’** genres, respectively. 
 
 So, to better understand these connections, let’s explore the **correlations** between **first names** and **film categories**, starting by looking at the most common **first names** in each genre:
-
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/top_10_names_by_movie_genre.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
