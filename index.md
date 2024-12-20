@@ -84,11 +84,11 @@ Additionally, by examining the common distribution, we find that nearly **15 tim
 
 ## II. AGE ANALYSIS
 
+**Tastes** and **trends** evolve over the years: the names of your grandparents are likely very different from those of your younger cousins. What was original in the past is now considered **traditional**, and this evolution also influences the way characters are named in *cinema*.
+
 <div class="text-center">
   <img src="assets/img/old_man.gif" alt="Quentin Tarantino Peace Gesture">
 </div>
-
-**Tastes** and **trends** evolve over the years: the names of your grandparents are likely very different from those of your younger cousins. What was original in the past is now considered **traditional**, and this evolution also influences the way characters are named in *cinema*.
 
 But then, can we associate certain names with specific **age groups**? For example, do some names appear more frequently for an *elderly* person compared to a *newborn*?
 
