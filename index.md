@@ -86,8 +86,6 @@ These graphs are not very **expressive**… this is probably not the right path 
 
 The names of **older people** today are the names of **younger people** from the past. Taking this into account, it is normal not to find any significant difference between the names of characters from different **age groups**. 
 
-Let’s try looking at the **film genres** instead.
-
 ## III. MOVIE GENRES ANALYSIS - autre titre
 
 Let's take a look at the differences between first names in different film genres. Certain first names are associated with specific types of character, and are often found in the same categories of film. For example, it's hard to imagine a character whose first name is “Romeo” being anything but romantic, passionate and desperate for love. Or it's hard to imagine a rude, mediocre and unathletic “Percival”. As a result, these two characters are often associated with the “Romance” and “Action & Adventure” genres respectively. With this in mind, let's take a look at the correlations between first names and film categories.
@@ -154,7 +152,20 @@ PLOT POLARITY
 
 Extraordinary, we can finally put labels on our first names: “Very Good Guy”, “Good Guy”, “Neutral”, “Bad Guy” or “Very Bad Guy”. So what are the names of the greatest villains and those of the most lovable characters? Let's take a look:
 
-PLOT SUNBURST POLARITY FILLE ET GARCON
+<div class="tabs">
+  <button class="tab-button active" data-target="plot-men">Hommes</button>
+  <button class="tab-button" data-target="plot-women">Femmes</button>
+</div>
+
+<div class="tab-content">
+  <div id="plot-men" class="plot-container active">
+    <iframe src="{{ site.baseurl }}/assets/plots/plot_men.html" class="iframe-plot"></iframe>
+  </div>
+  <div id="plot-women" class="plot-container">
+    <iframe src="{{ site.baseurl }}/assets/plots/plot_women.html" class="iframe-plot"></iframe>
+  </div>
+</div>
+
 PLOT POLARITY BOX
 
 Now that we've familiarized ourselves with sentimental analysis, let's see if we can find some interesting motifs. We got the idea straight away of comparing the presence of Russian first names for American film villains during the Cold War, and vice versa. 
