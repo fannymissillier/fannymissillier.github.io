@@ -29,7 +29,7 @@ Johns’ and “Sarahs” top the list. Can you think of an iconic film that fea
 While John and Sarah are by far the most popular, in more general terms we can see that female first names are more evenly distributed than those given to the male characters. Among the latter, John clearly stands out, being given more than twice as many times as ‘George’, the second most common male first name.
 Let's continue by analysing how the most common first names vary according to the country of origin of the films, in order to see whether these choices are influenced by different cultures.
 
-<div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/top10_names_country.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
@@ -41,7 +41,7 @@ Now that we've set the scene, let's take a closer look at the links between the 
 
 Naturally, in order to draw up a profile of a character from their name, it is essential to start by identifying their gender: male or female. At first sight, this may seem obvious. However, among the thousands of first names that exist, what is it that makes a first name perceived as masculine rather than feminine? With this in mind, we have undertaken an analysis of first names by looking at the notable differences in their composition between feminine and masculine first names. In the graph below, we compare the first and last letters of female first names with those of male first names.
 
-<div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/top10_names_country.html" width="100%" height="500" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
@@ -49,22 +49,25 @@ Several striking differences emerge: female first names end much more frequently
 
 ## II. AGE ANALYSIS - autre titre
 
-<div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/box_plot_features_age.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 ## III. MOVIE GENRES ANALYSIS - autre titre
 
-<div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/top10_names_genres.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
-<div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/box_plot_features_genre.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
-<div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/movie_genre_first_letter.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
-<div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/movie_genre_last_letter.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
@@ -72,11 +75,11 @@ Several striking differences emerge: female first names end much more frequently
 
 ## V. SENTIMENTAL ANALYSIS ANALYSIS - autre titre
 
-<div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/polarity_distribution.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
-<div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/sentiment_analysis_overview.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
