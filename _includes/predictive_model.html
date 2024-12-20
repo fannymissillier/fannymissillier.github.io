@@ -2,17 +2,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Your Model</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card-container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #ddd;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 16px;
+            color: #555;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px;
+            border: 2px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #result {
+            background: #f0f0f5;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .result-item {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .result-item strong {
+            color: #4CAF50;
+        }
+
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h3>Model Prediction</h3>
-    <form id="prediction-form">
-        <label for="input-name">Enter a name:</label>
-        <input type="text" id="input-name" placeholder="Type here..." required>
-        <button type="submit">Predict</button>
-    </form>
-    <h4>Result:</h4>
-    <div id="result">
-        <p>No result yet.</p>
+    <div class="card-container">
+        <h3>Model Prediction</h3>
+        <form id="prediction-form">
+            <label for="input-name">Enter a name:</label>
+            <input type="text" id="input-name" placeholder="Type here..." required>
+            <button type="submit">Predict</button>
+        </form>
+        <h4>Result:</h4>
+        <div id="result">
+            <p>No result yet.</p>
+        </div>
     </div>
 
     <script>
@@ -34,22 +112,22 @@
                 if (response.ok) {
                     const data = await response.json();
                     document.getElementById('result').innerHTML = `
-                        <p><strong>Name:</strong> ${data.name}</p>
-                        <p><strong>Genres:</strong> ${data.genres.join(', ')}</p>
-                        <p><strong>Gender:</strong> ${data.gender}</p>
-                        <p><strong>Age:</strong> ${data.age}</p>
-                        <p><strong>Kindness:</strong> ${data.kindness}</p>
-                        <p><strong>Origin:</strong> ${data.origin}</p>
+                        <div class="result-item"><strong>Name:</strong> ${data.name}</div>
+                        <div class="result-item"><strong>Genres:</strong> ${data.genres.join(', ')}</div>
+                        <div class="result-item"><strong>Gender:</strong> ${data.gender}</div>
+                        <div class="result-item"><strong>Age:</strong> ${data.age}</div>
+                        <div class="result-item"><strong>Kindness:</strong> ${data.kindness}</div>
+                        <div class="result-item"><strong>Origin:</strong> ${data.origin}</div>
                     `;
                 } else {
                     const error = await response.json();
                     document.getElementById('result').innerHTML = `
-                        <p><strong>Error:</strong> ${error.error}</p>
+                        <p class="error"><strong>Error:</strong> ${error.error}</p>
                     `;
                 }
             } catch (err) {
                 document.getElementById('result').innerHTML = `
-                    <p><strong>Error:</strong> Unable to connect to the server.</p>
+                    <p class="error"><strong>Error:</strong> Unable to connect to the server.</p>
                 `;
             }
         });
