@@ -30,15 +30,15 @@ If I told you that *Tarantino's* next character had **your first name**, what wo
 Let's start with some **interesting facts** about the most common first names used in movies. First of all, let's take a look at the most common first names in our dataset:
 
 <div class="tabs">
-  <button class="tab-button active" data-target="plot-men">Femmes</button>
-  <button class="tab-button" data-target="plot-women">Hommes</button>
+  <button class="tab-button active" data-target="plot-women">Femmes</button>
+  <button class="tab-button" data-target="plot-men">Hommes</button>
 </div>
 
 <div class="tab-content">
-  <div id="plot-men" class="plot-container active">
+  <div id="plot-women" class="plot-container active">
     <iframe src="{{ site.baseurl }}/assets/plots/1000_most_popular_female_names.html" class="iframe-plot"></iframe>
   </div>
-  <div id="plot-women" class="plot-container">
+  <div id="plot-men" class="plot-container">
     <iframe src="{{ site.baseurl }}/assets/plots/1000_most_popular_male_names.html" class="iframe-plot"></iframe>
   </div>
 </div>
@@ -147,15 +147,15 @@ Nous avons axé notre analyse sur l'**étude lexicale** des prénoms selon leur 
 Nous avons commencé notre étude en examinant les distributions des **premières** et **dernières lettres** des prénoms. Nous avons effectué une étude statistique à l’aide du test du **CHI-2** pour déterminer les éléments les plus significatifs. Voici les graphiques que nous avons obtenus, montrant les distributions des origines pour les éléments les plus significatifs (c'est-à-dire les éléments pour lesquels les distributions diffèrent le plus) :
 
 <div class="tabs">
-  <button class="tab-button active" data-target="plot-men">First Letter</button>
-  <button class="tab-button" data-target="plot-women">Last Letter</button>
+  <button class="tab-button active" data-target="plot-first-letter">First Letter</button>
+  <button class="tab-button" data-target="plot-last-letter">Last Letter</button>
 </div>
 
 <div class="tab-content">
-  <div id="plot-men" class="plot-container active">
+  <div id="plot-first-letter" class="plot-container active">
     <iframe src="{{ site.baseurl }}/assets/plots/first_letter_by_origin.html" class="iframe-plot"></iframe>
   </div>
-  <div id="plot-women" class="plot-container">
+  <div id="plot-last-letter" class="plot-container">
     <iframe src="{{ site.baseurl }}/assets/plots/last_letter_by_origin.html" class="iframe-plot"></iframe>
   </div>
 </div>
