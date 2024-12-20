@@ -193,17 +193,13 @@ To achieve this, we carried out a **sentimental analysis** for each first name i
 
 Our sentimental analysis enabled us to classify the first names into **5 different categories**. These are presented in the graph below:
 
-PLOT SENTIMENTAL ANALYSIS RESULT 
-PLOT POLARITY
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/SA_results.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
 
 **Extraordinary**, we can finally put labels on our first names: **“Very Good Guy”**, **“Good Guy”**, **“Neutral”**, **“Bad Guy”** or **“Very Bad Guy”**. 
 
 So what are the names of the greatest **villains** and those of the most **lovable characters**? Let's take a look:
-
-<div class="tabs">
-  <button class="tab-button active" data-target="plot-men">Hommes</button>
-  <button class="tab-button" data-target="plot-women">Femmes</button>
-</div>
 
 <div class="tab-content">
   <div id="plot-men" class="plot-container active">
@@ -224,7 +220,9 @@ If you're a fan of **American espionage blockbusters**, you've probably noticed 
 
 We might wonder if we can identify broader historical or political trends through morality, character origin, and the country of film production.
 
-PLOT RUSSIA VS USA
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/us-urss.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
 
 Well, the results aren't what we'd hoped for, but are they really that **bad**? 
 
@@ -232,7 +230,9 @@ We can see that the **villains** are mostly from the country in question. That m
 
 However, the question remains: are there really more **villains of Slavic origin** in **Russian films** and of **English origin** in **American films**, or is this simply the effect of being the **majority group**? Let's dig deeper.
 
-PLOT PROPORTION US
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/proportion_us.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
 
 **Ah-ha!** The high proportion of **English villains** in **American films** was only due to the large number of **English names**. 
 
@@ -246,7 +246,9 @@ So **Russians** aren't the **bad guys** in **American films**? According to our 
 
 Out of curiosity, let's take a look at **American films** released during the **Cold War** to see if a trend emerges.
 
-PLOT COLD WAR US
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/cold_war.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
 
 The results aren't very **exciting**... The same graph is found as for all films. Our hypothesis that **Russian names** are predominantly the names of **villains** in **American films** is not confirmed. 
 
