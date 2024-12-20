@@ -86,7 +86,7 @@ Additionally, by examining the common distribution, we find that nearly **15 tim
 But then, can we associate certain names with specific **age groups**? For example, do some names appear more frequently for an *elderly* person compared to a *newborn*?
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_age.html" width="100%" height="600" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_age.html" width="100%" height="700" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 These graphs are not very **expressive**… this is probably not the right path to uncover the deepest **secrets** of *Tarantino*. However, we believe we have an **explanation** for this! 
@@ -104,7 +104,7 @@ And it's no **coincidence**! These names are often used to embody specific **arc
 So, to better understand these connections, let’s explore the **correlations** between **first names** and **film categories**, starting by looking at the most common **first names** in each genre:
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/top_10_names_by_movie_genre.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/top_10_names_by_movie_genre.html" width="100%" height="600" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 **Sarah** and **‘John’** continue to be omnipresent in all categories, but we can see that popular first names change according to **film genre**. 
@@ -114,8 +114,8 @@ So, to better understand these connections, let’s explore the **correlations**
 Let’s analyze the **syntactic characteristics** of first names according to **film type**:
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="V/C_diff.jpeg" alt="Image 1" width="45%" />
-  <img src="V/C_length.jpeg" alt="Image 2" width="45%" />
+  <img src="/assets/plots/V_C_diff.jpeg" alt="Image 1" width="45%" />
+  <img src="/assets/plots/V_C_length.jpeg" alt="Image 2" width="45%" />
 </div>
 
 **Great results!** **Conclusive results!** 
