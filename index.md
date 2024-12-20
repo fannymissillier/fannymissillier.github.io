@@ -101,7 +101,7 @@ These graphs are not very expressive… this is probably not the right path to u
 
 ## VI. MODEL - autre titre
 
-2 TEST
+3 TEST
 
 {% include predictive_model.html %}
 
