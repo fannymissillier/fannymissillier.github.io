@@ -196,26 +196,22 @@ Our main dataset does not include information on character **morality**. However
 
 To achieve this, we carried out a **sentimental analysis** for each first name in our dataset, based on the movie summaries. We began by grouping all the sentences in the summaries according to the **first name** of the character they refer to. From there, we performed sentimental analysis on each first name, enabling us to assess the tendency of certain first names to designate **good guys** or **bad guys**. 
 
-Our sentimental analysis enabled us to classify the first names into **5 different categories**. These are presented in the graph below:
-
-<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/SA_results.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
-</div>
-
+Our sentimental analysis enabled us to classify the first names into **5 different categories**:
 **Extraordinary**, we can finally put labels on our first names: **“Very Good Guy”**, **“Good Guy”**, **“Neutral”**, **“Bad Guy”** or **“Very Bad Guy”**. 
 
 So what are the names of the greatest **villains** and those of the most **lovable characters**? Let's take a look:
 
-<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/polarity_GG_BG.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+<div class="tabs">
+  <button class="tab-button active" data-target="plot-men">Femmes</button>
+  <button class="tab-button" data-target="plot-women">Hommes</button>
 </div>
 
 <div class="tab-content">
   <div id="plot-men" class="plot-container active">
-    <iframe src="{{ site.baseurl }}/assets/plots/sunburst_good_bad_guy.html" class="iframe-plot"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/sunburst_good_bad_girls.html" class="iframe-plot"></iframe>
   </div>
   <div id="plot-women" class="plot-container">
-    <iframe src="{{ site.baseurl }}/assets/plots/sunburst_good_bad_girls.html" class="iframe-plot"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/sundburst_good_bad_guy.html" class="iframe-plot"></iframe>
   </div>
 </div>
 
