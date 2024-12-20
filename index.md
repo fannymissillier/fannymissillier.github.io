@@ -29,7 +29,7 @@ Let's start with some **interesting facts** about the most common first names us
 
 <div class="tab-content">
   <div id="plot-men" class="plot-container active">
-    <iframe src="{{ site.baseurl }}/assets/plots/1000_most_poplar_female_names.html" class="iframe-plot"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/1000_most_popular_female_names.html" class="iframe-plot"></iframe>
   </div>
   <div id="plot-women" class="plot-container">
     <iframe src="{{ site.baseurl }}/assets/plots/1000_most_popular_male_names.html" class="iframe-plot"></iframe>
