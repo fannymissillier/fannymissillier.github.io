@@ -79,7 +79,7 @@ GIF d’un grand-père dans un film
 But then, can we associate certain names with specific **age groups**? For example, do some names appear more frequently for an *elderly* person compared to a *newborn*?
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_age.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_age.html" width="100%" height="500" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 These graphs are not very **expressive**… this is probably not the right path to uncover the deepest **secrets** of *Tarantino*. However, we believe we have an **explanation** for this! 
