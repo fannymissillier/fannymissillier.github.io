@@ -19,7 +19,7 @@ Well done if you've got the character right! If not, don't worry. We're now goin
 Preview: Let's start with some interesting facts about the most common first names used in movies. First of all, let's take a look at the most common first names in our dataset:
 
 <div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/plot_top1000_names.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/plot_top1000_names.html" width="100%" height="500" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 Johns’ and “Sarahs” top the list. Can you think of an iconic film that features these two names? Here's a hint: ‘Hasta La Vista Baby’... 
@@ -42,7 +42,7 @@ Now that we've set the scene, let's take a closer look at the links between the 
 Naturally, in order to draw up a profile of a character from their name, it is essential to start by identifying their gender: male or female. At first sight, this may seem obvious. However, among the thousands of first names that exist, what is it that makes a first name perceived as masculine rather than feminine? With this in mind, we have undertaken an analysis of first names by looking at the notable differences in their composition between feminine and masculine first names. In the graph below, we compare the first and last letters of female first names with those of male first names.
 
 <div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/first_last_letter.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/top10_names_country.html" width="100%" height="500" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 Several striking differences emerge: female first names end much more frequently with an ‘a’ or an ‘e’ than male first names. To investigate this observation further, we carried out Chi-square tests to compare the distributions of initial and final letters between male and female first names. The results show that certain parameters, such as the presence of an ‘a’, a ‘d’, an ‘e’ or an ‘s’ at the end of a first name, make it possible to distinguish between male and female first names with a confidence level of over 95%. Moreover, an examination of the joint distribution shows that almost 15 times as many female first names begin and end with an ‘a’ as male first names, further reinforcing the distinctive patterns observed.
