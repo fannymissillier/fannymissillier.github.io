@@ -84,6 +84,10 @@ Additionally, by examining the common distribution, we find that nearly **15 tim
 
 ## II. AGE ANALYSIS
 
+<div class="text-center">
+  <img src="assets/img/old_man.gif" alt="Quentin Tarantino Peace Gesture">
+</div>
+
 **Tastes** and **trends** evolve over the years: the names of your grandparents are likely very different from those of your younger cousins. What was original in the past is now considered **traditional**, and this evolution also influences the way characters are named in *cinema*.
 
 But then, can we associate certain names with specific **age groups**? For example, do some names appear more frequently for an *elderly* person compared to a *newborn*?
@@ -237,11 +241,7 @@ However, the question remains: are there really more **villains of Slavic origin
     <iframe src="{{ site.baseurl }}/assets/plots/proportion_us.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
-**Ah-ha!** The high proportion of **English villains** in **American films** was only due to the large number of **English names**. 
-
-This graph shows more clearly the proportion of **villains**, **neutrals**, and **good guys** for each **ethnic group**. All ethnic groups have more or less the same distribution, with more **good characters** than **bad**. **Phew**, we're saved, the **good guys** are in the majority!
-
-Unfortunately, we don't have enough data for **Russian films** to be able to give us **usable results**.
+**Ah-ha!** The high proportion of **English villains** in **American films** was only due to the large number of **English names**. This graph shows more clearly the proportion of **villains**, **neutrals**, and **good guys** for each **ethnic group**. All ethnic groups have more or less the same distribution, with more **good characters** than **bad**. **Phew**, we're saved, the **good guys** are in the majority! Unfortunately, we don't have enough data for **Russian films** to be able to give us **usable results**.
 
 So **Russians** aren't the **bad guys** in **American films**? According to our data, no, not especially. Out of curiosity, let's take a look at **American films** released during the **Cold War** to see if a trend emerges.
 
