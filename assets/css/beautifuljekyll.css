@@ -153,8 +153,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #FFFFFF !important;
-  border-bottom: 1px solid #FFFFFF !important;
+  background-color: var(--navbar-col);
+  border-bottom: 1px solid var(--navbar-border-col);
   font-family: var(--header-font);
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
@@ -409,11 +409,10 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 1px solid #333333 !important;
+  border-top: 1px var(--footer-col) solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: #333333 !important;
-  background-image: none !important;
+  background-color: var(--footer-col);
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
