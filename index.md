@@ -153,8 +153,6 @@ That’s where we come in! We’ve built a model to handle the heavy lifting for
 
 ## VI. MODEL - autre titre
 
-4 TEST
-
 {% include predictive_model.html %}
 
 ### Data Insights
