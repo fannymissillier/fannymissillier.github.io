@@ -21,10 +21,6 @@ So, beyond first impressions, the association of first names with character trai
 
 If I told you that *Tarantino's* next character had **your first name**, what would its **attributes** be? It's up to you to find out.
 
-### PETIT JEU
-
-**Well done** if you've got the character right! If not, don't worry. We're now going to take you on a *journey* through our analyses to show you the different ways of predicting a character's **characteristics** using their *first name*.
-
 ---
 
 **Preview**: 
@@ -243,15 +239,11 @@ However, the question remains: are there really more **villains of Slavic origin
 
 **Ah-ha!** The high proportion of **English villains** in **American films** was only due to the large number of **English names**. 
 
-This graph shows more clearly the proportion of **villains**, **neutrals**, and **good guys** for each **ethnic group**. All ethnic groups have more or less the same distribution, with more **good characters** than **bad**. 
-
-**Phew**, we're saved, the **good guys** are in the majority!
+This graph shows more clearly the proportion of **villains**, **neutrals**, and **good guys** for each **ethnic group**. All ethnic groups have more or less the same distribution, with more **good characters** than **bad**. **Phew**, we're saved, the **good guys** are in the majority!
 
 Unfortunately, we don't have enough data for **Russian films** to be able to give us **usable results**.
 
-So **Russians** aren't the **bad guys** in **American films**? According to our data, no, not especially. 
-
-Out of curiosity, let's take a look at **American films** released during the **Cold War** to see if a trend emerges.
+So **Russians** aren't the **bad guys** in **American films**? According to our data, no, not especially. Out of curiosity, let's take a look at **American films** released during the **Cold War** to see if a trend emerges.
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/cold_war.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
