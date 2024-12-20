@@ -146,8 +146,18 @@ Nous avons axé notre analyse sur l'**étude lexicale** des prénoms selon leur 
 
 Nous avons commencé notre étude en examinant les distributions des **premières** et **dernières lettres** des prénoms. Nous avons effectué une étude statistique à l’aide du test du **CHI-2** pour déterminer les éléments les plus significatifs. Voici les graphiques que nous avons obtenus, montrant les distributions des origines pour les éléments les plus significatifs (c'est-à-dire les éléments pour lesquels les distributions diffèrent le plus) :
 
-<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/first_last_letter_by_origin.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+<div class="tabs">
+  <button class="tab-button active" data-target="plot-men">Hommes</button>
+  <button class="tab-button" data-target="plot-women">Femmes</button>
+</div>
+
+<div class="tab-content">
+  <div id="plot-men" class="plot-container active">
+    <iframe src="{{ site.baseurl }}/assets/plots/first_letter_by_origin.html" class="iframe-plot"></iframe>
+  </div>
+  <div id="plot-women" class="plot-container">
+    <iframe src="{{ site.baseurl }}/assets/plots/last_letter_by_origin.html" class="iframe-plot"></iframe>
+  </div>
 </div>
 
 This graph clearly shows that the **first** and **last letters** of first names are very good indicators of the **origin** of a given name. Could we have guessed it? Who is the **Spanish character** between **“Pedro”** and **“Ivan”**? It’s intuitive, of course, but it’s always good to trust **good statistics**!
