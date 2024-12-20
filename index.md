@@ -66,7 +66,7 @@ Let's take a look at the differences between first names in different film genre
 To get a good idea of these differences, let's take a look at the most common first names for each film category:
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/top_10_name_movie_genre.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/top_10_name_by_movie_genre.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 Sarah” and ‘John’ continue to be omnipresent in all categories, but we can see that popular first names change according to film genre. Let's analyze the syntactic characteristics of first names according to film type:
