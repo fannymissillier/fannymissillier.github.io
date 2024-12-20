@@ -131,22 +131,22 @@ This **heatmap** tells us a lot about the remarkable differences between the **s
 
 We can now find our way between **‘Terminator’** characters and **‘La La Land’** characters, *phewf*... We're beginning to know a lot about character names... but let’s not stop there — the most interesting is yet to come!
 
-## IV. ORIGIN ANALYSIS - autre titre
+## IV. ORIGIN ANALYSIS - Another Title
 
-Notre jeu de données ne montre pas les **origines ethniques** des prénoms des personnages. C’est là que l'expertise de l’équipe **AdadaSurMonBidet** intervient. Nous avons trouvé un jeu de données supplémentaire (« **Name Ethnicity Dataset** » dans l'onglet 'Resources') qui comprend près de **14 000 prénoms** avec leur origine ethnique. Nous avons développé un modèle **prédictif** basé sur ce jeu de données supplémentaire, afin de pouvoir le généraliser à l'ensemble de notre jeu de données. 
+Our dataset does not show the **ethnic origins** of the characters' first names. This is where the expertise of the **AdadaSurMonBidet** team comes in. We found an additional dataset (**Name Ethnicity Dataset** in the 'Resources' tab) that includes nearly **14,000 first names** with their ethnic origin. We developed a **predictive model** based on this additional dataset so that we could generalize it to our entire dataset.
 
-**Impressionnant**, non ? Avec une précision de **72%**, nous avons pu établir les origines ethniques des prénoms de nos personnages pour des recherches ultérieures. Nos catégories d'origines sont :  
-- **Slaves**  
+**Impressive**, right? With an accuracy of **72%**, we were able to determine the ethnic origins of our characters' first names for further research. Our origin categories are:  
+- **Slavic**  
 - **Romance**  
-- **Asie de l'Est**  
-- **Anglophones**  
-- **Hispaniques**
+- **East Asian**  
+- **English-Speaking**  
+- **Hispanic**
 
-Les films utilisent des prénoms **culturellement spécifiques** pour renforcer l'**authenticité** de leur contexte. Les clichés sur certaines populations sont utilisés dans le choix des prénoms des personnages pour accentuer certains traits de caractère. Il est donc intéressant de voir s'il est possible de faire des liens entre les prénoms et **l'origine géographique** du prénom, afin de mieux imaginer notre célèbre **personnage mystérieux** dont nous ne connaissons que le prénom.  
+Films use **culturally specific** first names to reinforce the **authenticity** of their context. Stereotypes about certain populations are used in the choice of characters' first names to highlight certain character traits. Therefore, it is interesting to see if it is possible to make connections between first names and their **geographical origin**, in order to better imagine our famous **mysterious character** whose first name we only know.
 
-Nous avons axé notre analyse sur l'**étude lexicale** des prénoms selon leur origine, car nous estimons que c’est le choix le plus **pertinent** et **intéressant**.
+We focused our analysis on the **lexical study** of first names according to their origin, as we believe this is the most **relevant** and **interesting** approach.
 
-Nous avons commencé notre étude en examinant les distributions des **premières** et **dernières lettres** des prénoms. Nous avons effectué une étude statistique à l’aide du test du **CHI-2** pour déterminer les éléments les plus significatifs. Voici les graphiques que nous avons obtenus, montrant les distributions des origines pour les éléments les plus significatifs (c'est-à-dire les éléments pour lesquels les distributions diffèrent le plus) :
+We began our study by examining the distributions of the **first** and **last letters** of the names. We conducted a statistical study using the **CHI-2 test** to determine the most significant elements. Here are the graphs we obtained, showing the distributions of origins for the most significant elements (i.e., those for which the distributions differ the most):
 
 <div class="tabs">
   <button class="tab-button active" data-target="plot-first-letter">First Letter</button>
