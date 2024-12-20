@@ -113,7 +113,7 @@ PLOT DE ZAC
 
 This **heatmap** tells us a lot about the remarkable differences between the **syntaxes** of first names present in different **film genres**. Boxes marked with an asterisk show pairs of film types with statistically different **'length'** or **'VOWEL/CONSONANT ratio** distributions (with **95% confidence**) according to the **Tukey test**.
 
-We can now find our way between **‘Terminator’** characters and **‘La La Land’** characters, *fiouf*... We're beginning to know a lot about character names... but let’s not stop there — the most interesting is yet to come!
+We can now find our way between **‘Terminator’** characters and **‘La La Land’** characters, *phewf*... We're beginning to know a lot about character names... but let’s not stop there — the most interesting is yet to come!
 
 ## IV. ORIGIN ANALYSIS - autre titre
 
@@ -158,20 +158,24 @@ We now know how to recognize a character's **origin** from his or her **first na
 
 ## V. SENTIMENTAL ANALYSIS ANALYSIS - autre titre
 
-Which of these two names, “Toby” and “Lucifer”, would you give to a great villain? Which would you give to a sympathetic and generous character? I think we agree...
-We've all been conditioned to think of some names as synonymous with kindness and trust, while others symbolize wickedness and terror. Let's continue our study to find out if there's a significant difference between the names of nice characters and the names of nasty characters.
+Which of these two names, **“Toby”** and **“Lucifer”**, would you give to a great villain? Which would you give to a **sympathetic** and **generous** character? I think we agree...
 
-### Sentimental Analysis
+We've all been conditioned to think of some names as synonymous with **kindness** and **trust**, while others symbolize **wickedness** and **terror**. Let's continue our study to find out if there's a **significant difference** between the names of **nice characters** and the names of **nasty characters**.
 
-Our main dataset does not include information on character morality. However, we do have access to all the movie summaries in our dataset. We therefore came up with the idea of establishing our characters' values ourselves, so that we could study the link between these and their first names. 
-To achieve this, we carried out a sentimental analysis for each first name in our dataset, based on the movie summaries. We began by grouping all the sentences in the summaries according to the first name of the character they refer to. From there, we performed sentimental analysis on each first name, enabling us to assess the tendency of certain first names to designate good guys or bad guys. 
+### **Sentimental Analysis**
 
-Our sentimental analysis enabled us to classify the first names into 5 different categories. These are presented in the graph below:
+Our main dataset does not include information on character **morality**. However, we do have access to all the **movie summaries** in our dataset. We therefore came up with the idea of establishing our characters' **values** ourselves, so that we could study the link between these and their **first names**. 
+
+To achieve this, we carried out a **sentimental analysis** for each first name in our dataset, based on the movie summaries. We began by grouping all the sentences in the summaries according to the **first name** of the character they refer to. From there, we performed sentimental analysis on each first name, enabling us to assess the tendency of certain first names to designate **good guys** or **bad guys**. 
+
+Our sentimental analysis enabled us to classify the first names into **5 different categories**. These are presented in the graph below:
 
 PLOT SENTIMENTAL ANALYSIS RESULT 
 PLOT POLARITY
 
-Extraordinary, we can finally put labels on our first names: “Very Good Guy”, “Good Guy”, “Neutral”, “Bad Guy” or “Very Bad Guy”. So what are the names of the greatest villains and those of the most lovable characters? Let's take a look:
+**Extraordinary**, we can finally put labels on our first names: **“Very Good Guy”**, **“Good Guy”**, **“Neutral”**, **“Bad Guy”** or **“Very Bad Guy”**. 
+
+So what are the names of the greatest **villains** and those of the most **lovable characters**? Let's take a look:
 
 <div class="tabs">
   <button class="tab-button active" data-target="plot-men">Hommes</button>
@@ -189,37 +193,57 @@ Extraordinary, we can finally put labels on our first names: “Very Good Guy”
 
 PLOT POLARITY BOX
 
-Now that we've familiarized ourselves with sentimental analysis, let's see if we can find some interesting motifs. We got the idea straight away of comparing the presence of Russian first names for American film villains during the Cold War, and vice versa. 
+Now that we've familiarized ourselves with **sentimental analysis**, let's see if we can find some interesting **motifs**. 
+
+If you're a fan of **American espionage blockbusters**, you've probably noticed that the villains' names are, in most cases, not English-speaking... But can we say the same in the opposite direction? The idea immediately came to us to compare the presence of **Russian first names** for **American film villains** during the **Cold War**, and vice versa.
 
 ### USA/URSS
 
-Can we identify broader historical or political trends through morality, character origin and the country of film production? We might ask whether villains in American films are statistically more often Russian and whether, conversely, villains in Russian films are more often of American origin.
+We might wonder if we can identify broader historical or political trends through morality, character origin, and the country of film production.
 
 PLOT RUSSIA VS USA
 
-Well, the results aren't what we'd hoped for, but are they really that bad? We can see that the villains are mostly from the country in question. That makes sense! Films often tell an internal story in their country of production, so it's only natural that the villains (but also the good guys) should come from that country. However, the question remains: are there really more villains of Slavic origin in Russian films and of English origin in American films, or is this simply the effect of being the majority group? Let's dig deeper.
+Well, the results aren't what we'd hoped for, but are they really that **bad**? 
+
+We can see that the **villains** are mostly from the country in question. That makes sense! **Films** often tell an internal story in their **country of production**, so it's only natural that the **villains** (but also the **good guys**) should come from that country. 
+
+However, the question remains: are there really more **villains of Slavic origin** in **Russian films** and of **English origin** in **American films**, or is this simply the effect of being the **majority group**? Let's dig deeper.
 
 PLOT PROPORTION US
 
-Ah-ha! The high proportion of English villains in American films was only due to the large number of English names. This graph shows more clearly the proportion of villains, neutrals and good guys for each ethnic group. All ethnic groups have more or less the same distribution, with more good characters than bad. Phew, we're saved, the good guys are in the majority!
+**Ah-ha!** The high proportion of **English villains** in **American films** was only due to the large number of **English names**. 
 
-Unfortunately, we don't have enough data for Russian films to be able to give us usable results.
+This graph shows more clearly the proportion of **villains**, **neutrals**, and **good guys** for each **ethnic group**. All ethnic groups have more or less the same distribution, with more **good characters** than **bad**. 
 
-So Russians aren't the bad guys in American films? According to our data, no, not especially. Out of curiosity, let's take a look at American films released during the Cold War to see if a trend emerges.
+**Phew**, we're saved, the **good guys** are in the majority!
+
+Unfortunately, we don't have enough data for **Russian films** to be able to give us **usable results**.
+
+So **Russians** aren't the **bad guys** in **American films**? According to our data, no, not especially. 
+
+Out of curiosity, let's take a look at **American films** released during the **Cold War** to see if a trend emerges.
 
 PLOT COLD WAR US
 
-The results aren't very exciting... The same graph is found as for all films. Our hypothesis that Russian names are predominantly the names of villains in American films is not confirmed. One hypothesis to explain this lack of evidence is that the dataset on movies was compiled by Americans, which may introduce a Western-centric bias. This bias could mean that even the Russian movies included in the dataset are those that are more Westernized, potentially leading to an overrepresentation of English-speaking ethnicities as the dominant group, even in Russian films. Additionally, this bias is evident in the underrepresentation of Russian movies, among others, in the dataset, as reflected in the disproportionate number of films produced per country.
+The results aren't very **exciting**... The same graph is found as for all films. Our hypothesis that **Russian names** are predominantly the names of **villains** in **American films** is not confirmed. 
 
+One hypothesis to explain this lack of evidence is that the **dataset on movies** was compiled by **Americans**, which may introduce a **Western-centric bias**. This bias could mean that even the **Russian movies** included in the dataset are those that are more **Westernized**, potentially leading to an overrepresentation of **English-speaking ethnicities** as the dominant group, even in **Russian films**. 
+
+Additionally, this bias is evident in the **underrepresentation** of **Russian movies**, among others, in the dataset, as reflected in the disproportionate number of films produced per country.
 
 ## Conclusion
 
-Congratulations, you’ve reached the end of our data-driven guide to discovering character features based on names! We took you on a journey through the hidden power of linguistics, phonetics, and the broader world of words, and we hope you’ve learned something fascinating along the way. While our exploration revealed some intriguing insights, it’s important to recognize the limitations of our approach. One potential weakness lies in our predictive models for sentiment analysis and ethnicity. These models, despite their potential, may not fully capture the richness or nuance of the datasets they were trained on, which can sometimes lead to oversimplified or inaccurate interpretations. Additionally, the movie dataset itself comes with its own biases. As with any human-generated content, it reflects the inherent biases of its creators and could influence the conclusions drawn about the movie industry.
-Despite these challenges, the possibilities are exciting. Imagine knowing the personality traits and attributes of a movie character simply from their name before you’ve even seen the movie. It’s a tantalizing prospect, isn’t it? Of course, it seems difficult to manually analyze character features —and you probably wouldn’t want to count diacritics or analyze n-grams every time you encounter a new character name.
-That’s where we come in! We’ve built a model to handle the heavy lifting for you. Just think of a name, and our model will reveal the likely features of that character based on the patterns we’ve uncovered. ADA magic at your fingertips—ready to bring characters to life in ways you’ve never imagined!
+**Congratulations**, you’ve reached the end of our **data-driven guide** to discovering **character features** based on names! We took you on a journey through the hidden power of **linguistics**, **phonetics**, and the broader world of **words**, and we hope you’ve learned something **fascinating** along the way.
 
+While our exploration revealed some intriguing insights, it’s important to recognize the **limitations** of our approach. One potential weakness lies in our **predictive models** for **sentiment analysis** and **ethnicity**. These models, despite their potential, may not fully capture the richness or nuance of the datasets they were trained on, which can sometimes lead to **oversimplified** or **inaccurate interpretations**. Additionally, the **movie dataset** itself comes with its own **biases**. As with any human-generated content, it reflects the inherent biases of its creators and could influence the conclusions drawn about the movie industry.
 
-## VI. Name Predictor
+Despite these challenges, the possibilities are **exciting**. Imagine knowing the **personality traits** and **attributes** of a movie character simply from their name before you’ve even seen the movie. It’s a tantalizing prospect, isn’t it?
+
+Of course, it seems difficult to manually analyze **character features** — and you probably wouldn’t want to count **diacritics** or analyze **n-grams** every time you encounter a new character name.
+
+That’s where we come in! We’ve built a **model** to handle the **heavy lifting** for you. Just think of a name, and our model will reveal the likely features of that character based on the patterns we’ve uncovered. **ADA magic** to bring characters to life in ways you’ve never imagined!
+
+## Name Predictor
 
 {% include predictive_model.html %}
 
