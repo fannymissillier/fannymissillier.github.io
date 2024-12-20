@@ -50,7 +50,7 @@ Several striking differences emerge: female first names end much more frequently
 ## II. AGE ANALYSIS - autre titre
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_features_age.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/first_last_letter.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 ## III. MOVIE GENRES ANALYSIS - autre titre
