@@ -9,7 +9,7 @@ cover-img: /assets/img/IMG_title.jpg
 When *Tarantino* makes his films, you might imagine that he starts with the most obvious choices: the **genre** of the film, the **plot** that will unfold, or the **scenes** that will surprise us. But among these big decisions, there's another, more subtle, but just as crucial: choosing the **characters' first names**. 
 
 <div class="text-center">
-  <img src="assets/img/quentin-tarantino-peacef.gif">
+  <img src="assets/img/quentin-tarantino-peace.gif" alt="Quentin Tarantino Peace Gesture">
 </div>
 
 **Bill**, **Rick**, **Django**... how does he make his choice? Is it really a matter of chance, or does each name conceal a clue to the character's identity?  
