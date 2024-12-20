@@ -45,13 +45,21 @@ Naturally, in order to draw up a profile of a character from their name, it is e
     <iframe src="{{ site.baseurl }}/assets/plots/top10_names_country.html" width="100%" height="500" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
-Several striking differences emerge: female first names end much more frequently with an ‘a’ or an ‘e’ than male first names. To investigate this observation further, we carried out Chi-square tests to compare the distributions of initial and final letters between male and female first names. The results show that certain parameters, such as the presence of an ‘a’, a ‘d’, an ‘e’ or an ‘s’ at the end of a first name, make it possible to distinguish between male and female first names with a confidence level of over 95%. Moreover, an examination of the joint distribution shows that almost 15 times as many female first names begin and end with an ‘a’ as male first names, further reinforcing the distinctive patterns observed.
+Several significant differences emerge: Female names are much more likely to end with an ‘a’ or ‘e’ compared to male names. To further explore this observation, we conducted chi-square tests to compare the distributions of initial and final letters between male and female names. The results show that certain parameters, such as the presence of an ‘a’, ‘d’, ‘e’, or ‘s’ at the end of a name, help distinguish male names from female names with a confidence level greater than 95%. Additionally, by examining the common distribution, we find that nearly 15 times more female names start and end with an ‘a’ compared to male names, which further reinforces the distinct patterns observed. Perfect! We now have a first clue to avoid imagining John as Sarah or Sarah as John… it’s a great start !
 
 ## II. AGE ANALYSIS - autre titre
+
+GIF d’un grand-père dans un film
+
+Tastes and trends evolve over the years: the names of your grandparents are likely very different from those of your younger cousins. What was original in the past is now considered traditional, and this evolution also influences the way characters are named in cinema.
+
+But then, can we associate certain names with specific age groups ? For example, do some names appear more frequently for an elderly person compared to a newborn ?
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/first_last_letter.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
+
+These graphs are not very expressive… this is probably not the right path to uncover the deepest secrets of Tarantino. However, we believe we have an explanation for this! The names of older people today are the names of younger people from the past. Taking this into account, it is normal not to find any significant difference between the names of characters from different age groups. Let’s try looking at the film genres instead.
 
 ## III. MOVIE GENRES ANALYSIS - autre titre
 
