@@ -8,6 +8,9 @@ subtitle: Our Dataset
     In this tab, take a look at the <strong>distribution</strong> of the different attributes of film characters through our dataset. <strong>Gender</strong>, <strong>origin</strong>, <strong>age</strong>... we've analysed it all to give you a unique insight into the <strong>trends</strong> that shape characters in film!
 </div>
 
+
+
+
 <div>
     Here’s the <strong>distribution</strong> of male and female first names. As you can see, there are significantly more <strong>male characters</strong>: but where have all the <strong>female characters</strong> gone in our films?
 </div>
