@@ -111,10 +111,9 @@ PLOT DE ZAC
 
 **Great results!** **Conclusive results!** 
 
-This **heatmap** tells us a lot about the remarkable differences between the **syntaxes** of first names present in different **film genres**. Boxes marked with an asterisk show pairs of film types with statistically different **'length'** or **'vowel/consonant ratio** distributions (with **95% confidence**) according to the **Tukey test**.
+This **heatmap** tells us a lot about the remarkable differences between the **syntaxes** of first names present in different **film genres**. Boxes marked with an asterisk show pairs of film types with statistically different **'length'** or **'VOWEL/CONSONANT ratio** distributions (with **95% confidence**) according to the **Tukey test**.
 
 We can now find our way between **‘Terminator’** characters and **‘La La Land’** characters, *fiouf*... We're beginning to know a lot about character names... but let’s not stop there — the most interesting is yet to come!
-
 
 ## IV. ORIGIN ANALYSIS - autre titre
 
@@ -143,18 +142,19 @@ This graph clearly shows that the **first** and **last letters** of first names 
 
 **Letters with accents** are called **diacritical letters**. This is a very interesting and effective way of determining the origin of a given name. We've selected the **4 most significant** ones to illustrate this:
 
-
 DIACRITICS LETTER FOR ORIGIN
 
-This bar plot is very telling and shows that it is possible to isolate an origin thanks to the presence of certain diacritical letters.
+This **bar plot** is very telling and shows that it is possible to isolate an **origin** thanks to the presence of certain **diacritical letters**.
 
-Finally, it is also possible to use the articulatory phonetics of first names to determine their origin. We have chosen to focus on the most telling phonetics: affricate, fricative, liquid, nasal and occlusive. We therefore studied the percentage of first names, for each origin, that contain each of these phonetic categories.
+---
+
+Finally, it is also possible to use the **articulatory phonetics** of first names to determine their origin. We have chosen to focus on the most telling phonetics: **affricate**, **fricative**, **liquid**, **nasal**, and **occlusive**. We therefore studied the **percentage** of first names, for each origin, that contain each of these **phonetic categories**.
 
 PLOT PHONETIC ORIGIN
 
-This analysis is useful, but we expected it to be more telling. We observe that names of Hispanic and Romance origin contain more liquid consonants (such as [l] and [r]), while Slavic and English names show a greater presence of plosives (such as [p] and [t]). Nasals (such as [m] and [n]) are particularly frequent in Slavic and Hispanic names, but less so in Asian names. On the whole, the phonetic structures of names reflect the specific features of each origin.
+This analysis is useful, but we expected it to be more **telling**. We observe that names of **Hispanic** and **Romance** origin contain more **liquid consonants** (such as [l] and [r]), while **Slavic** and **English** names show a greater presence of **plosives** (such as [p] and [t]). **Nasals** (such as [m] and [n]) are particularly frequent in **Slavic** and **Hispanic** names, but less so in **Asian** names. On the whole, the phonetic structures of names reflect the specific features of each **origin**.
 
-We now know how to recognize a character's origin from his or her first name. Now we want to know if it's a nice character we're going to get attached to, or a disgusting one who's going to disgust us.
+We now know how to recognize a character's **origin** from his or her **first name**. Now we want to know if it's a **nice character** we're going to get attached to, or a **disgusting one** who's going to disgust us.
 
 ## V. SENTIMENTAL ANALYSIS ANALYSIS - autre titre
 
