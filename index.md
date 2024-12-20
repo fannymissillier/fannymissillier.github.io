@@ -4,7 +4,7 @@ title: DISCOVER CHARACTERS' FEATURES BASED ON FIRST NAME
 cover-img: /assets/img/IMG_title.jpg
 ---
 
-INTRODUCTION
+# INTRODUCTION
 
 When Tarantino makes his films, you might imagine that he starts with the most obvious choices: the genre of the film, the plot that will unfold, or the scenes that will surprise us. But among these big decisions, there's another, more subtle, but just as crucial: choosing the characters' first names. Bill, Rick, Django... how does he make his choice? Is it really a matter of chance, or does each name conceal a clue to the character's identity?
 Take the name “Jacki”’: do you imagine a rebellious teenager, an adorable Canadian grandmother, or a “badass” woman? It's interesting to note that some first names make us think of certain stereotypes or specific character traits. But what do these names reveal about the characters themselves? In the universe of cinema, each first name can have a considerable impact on the way we perceive a character. 
@@ -14,48 +14,52 @@ So, beyond first impressions, the association of first names with character trai
 
 PETIT JEU
 
-Bravo à vous si vous avez bien visualisé le personnage! Si ce n’est pas le cas, ne vous en faites pas. Nous allons maintenant vous faire voyager à travers nos analyses afin de vous montrer les différentes manières de prédire les caractéristiques d’un personnage à l’aide de son prénom.
-Preview: Pour commencer, prenons connaissance de quelques informations intéressantes concernant les prénoms les plus distribués dans les films. Tout d’abord, regardons quels sont les prénoms les plus présents dans notre dataset:
+Well done if you've got the character right! If not, don't worry. We're now going to take you on a journey through our analyses to show you the different ways of predicting a character's characteristics using their first name.
+
+Preview: Let's start with some interesting facts about the most common first names used in movies. First of all, let's take a look at the most common first names in our dataset:
 
 <iframe src="{{ site.baseurl }}/assets/plots/plot_top1000_names.html" width="100%" height="800" frameborder="0"></iframe>
 
-Les “John” et les “Sarah” prennent la première place du podium. Pourriez vous penser à un film qui contient les prénoms de nos deux gagnants? Un petit indice: “Hasta La Vista Baby”..
+Johns’ and “Sarahs” top the list. Can you think of an iconic film that features these two names?
+Here's a hint: ‘Hasta La Vista Baby’... 
 
 AFFICHE "TERMINATOR"
 
-Désormais, regardons comment les prénoms les plus donnés dans les films varient en fonction du pays d’origine du film.
+While John and Sarah are by far the most popular, in more general terms we can see that female first names are more evenly distributed than those given to the male characters. Among the latter, John clearly stands out, being given more than twice as many times as ‘George’, the second most common male first name.
+Let's continue by analysing how the most common first names vary according to the country of origin of the films, in order to see whether these choices are influenced by different cultures.
 
 <iframe src="{{ site.baseurl }}/assets/plots/top10_names_country.html" width="100%" height="800" frameborder="0"></iframe>
 
-Maintenant que nous avons pu planter le décor, passons aux analyses plus poussées des liens entre prénoms des personnages et leurs attributs.
+We can see here that in the English-speaking industries, the first name ‘John’ is most frequently attributed to male characters, while female first names show greater diversity. This confirms the observations made in the previous graphs: female first names tend to be more widely distributed than male first names, where ‘John’ stands out. As far as non-English-speaking countries are concerned, we can see that the most common first names used by the characters are often of local origin.
 
-I. GENDER ANALYSIS - autre titre
+Now that we've set the scene, let's take a closer look at the links between the characters' first names and their attributes.
 
-Naturellement, dans le but de dépeindre un personnage à partir de son nom, il est naturel de commencer par déterminer son genre (homme ou femme). C’est dans cette démarche que nous avons voulu déterminer les différences notables entre les prénoms masculins et les prénoms féminins. Dans le graphique présenté ci-dessous, nous comparons les premières et dernières lettres des noms féminins par rapport à celles des prénoms masculins.
+# I. GENDER ANALYSIS - autre titre
+
+Naturally, in order to draw up a profile of a character from their name, it is essential to start by identifying their gender: male or female. At first sight, this may seem obvious. However, among the thousands of first names that exist, what is it that makes a first name perceived as masculine rather than feminine? With this in mind, we have undertaken an analysis of first names by looking at the notable differences in their composition between feminine and masculine first names. In the graph below, we compare the first and last letters of female first names with those of male first names.
 
 <iframe src="{{ site.baseurl }}/assets/plots/first_last_letter.html" width="100%" height="800" frameborder="0"></iframe>
 
-Ce graphique présente les distributions des première et dernière lettres des prénoms, en fonction des genres, ainsi que leur répartition commune. Nous pouvons observer des différences notables. Par exemple, les prénoms féminins finissent bien plus souvent par un ‘a’ ou un ‘e’ que les prénoms masculins. Nous avons effectué des Chi test entre les distributions masculines et féminines pour chaque première et dernière lettre afin de déterminer quels sont les paramètres qui diffèrent le plus entre les prénoms féminins et masculins. Nous avons trouvé que les paramètres suivants permettent de différencier les prénoms masculins et féminins avec une confiance supérieure à 95%: le fait que le prénom se termine par un ‘a’, un ’d’, un ‘e’ ou encore un ‘s’.
-De plus, si l’on regarde la distribution commune, nous remarquons aussi certains motifs qui différencient les prénoms féminins. Le plus marquant est qu’une proportion près de 15 fois plus grande des prénoms féminins commencent et finissent par un ‘a’ par rapport aux prénoms masculins.
+Several striking differences emerge: female first names end much more frequently with an ‘a’ or an ‘e’ than male first names. To investigate this observation further, we carried out Chi-square tests to compare the distributions of initial and final letters between male and female first names. The results show that certain parameters, such as the presence of an ‘a’, a ‘d’, an ‘e’ or an ‘s’ at the end of a first name, make it possible to distinguish between male and female first names with a confidence level of over 95%. Moreover, an examination of the joint distribution shows that almost 15 times as many female first names begin and end with an ‘a’ as male first names, further reinforcing the distinctive patterns observed.
 
-II. AGE ANALYSIS - autre titre
+# II. AGE ANALYSIS - autre titre
 
 <iframe src="{{ site.baseurl }}/assets/plots/box_plot_features_age.html" width="100%" height="800" frameborder="0"></iframe>
 
-III. MOVIE GENRES ANALYSIS - autre titre
+# III. MOVIE GENRES ANALYSIS - autre titre
 
 <iframe src="{{ site.baseurl }}/assets/plots/top10_names_genres.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/box_plot_features_genre.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/movie_genre_first_letter.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/movie_genre_last_letter.html" width="100%" height="800" frameborder="0"></iframe>
 
-IV. ORIGIN ANALYSIS - autre titre
-V. SENTIMENTAL ANALYSIS ANALYSIS - autre titre
+# IV. ORIGIN ANALYSIS - autre titre
+
+# V. SENTIMENTAL ANALYSIS ANALYSIS - autre titre
 
 <iframe src="{{ site.baseurl }}/assets/plots/polarity_distribution.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/polarit_g_movie_genre.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/polarity_b_movie_genre.html" width="100%" height="800" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plots/polarity_box_plot.html" width="100%" height="800" frameborder="0"></iframe>
 
-VI. MODEL - autre titre
-
+# VI. MODEL - autre titre
