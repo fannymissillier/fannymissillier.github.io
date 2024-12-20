@@ -201,6 +201,10 @@ Our sentimental analysis enabled us to classify the first names into **5 differe
 
 So what are the names of the greatest **villains** and those of the most **lovable characters**? Let's take a look:
 
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/polarity_GG_BG.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
+
 <div class="tab-content">
   <div id="plot-men" class="plot-container active">
     <iframe src="{{ site.baseurl }}/assets/plots/sunburst_good_bad_guy.html" class="iframe-plot"></iframe>
@@ -209,8 +213,6 @@ So what are the names of the greatest **villains** and those of the most **lovab
     <iframe src="{{ site.baseurl }}/assets/plots/sunburst_good_bad_girls.html" class="iframe-plot"></iframe>
   </div>
 </div>
-
-PLOT POLARITY BOX
 
 Now that we've familiarized ourselves with **sentimental analysis**, let's see if we can find some interesting **motifs**. 
 
