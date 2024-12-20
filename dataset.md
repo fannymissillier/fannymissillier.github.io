@@ -16,13 +16,13 @@ subtitle: Our Dataset
 
 <div style="margin-top: 20px; margin-bottom: 20px;">
     This graph shows the <strong>age distribution</strong> of the characters: We can see that most characters are between <strong>25 and 55 years old</strong>.
-</div style="margin-top: 20px;">
+</div>
 
 <iframe src="{{ site.baseurl }}/assets/plots/age_distribution.html" width="100%" height="500" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 
 <div style="margin-top: 20px; margin-bottom: 20px;">
     We now have the <strong>distribution</strong> of <strong>movie genres</strong> in the films: And guess what? The <strong>"Drama"</strong> category is the <strong>Queen</strong>!
-</div style="margin-top: 20px;">
+</div>
 
 <iframe src="{{ site.baseurl }}/assets/plots/movie_genre_distribution.html" width="100%" height="500" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 
