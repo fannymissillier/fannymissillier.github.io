@@ -18,7 +18,7 @@ Well done if you've got the character right! If not, don't worry. We're now goin
 
 Preview: Let's start with some interesting facts about the most common first names used in movies. First of all, let's take a look at the most common first names in our dataset:
 
-PLOT TOP 1000 NAMES
+PLOT TOP 1000 NAMES F + G
 
 Johns’ and “Sarahs” top the list. Can you think of an iconic film that features these two names? Here's a hint: ‘Hasta La Vista Baby’... 
 
@@ -27,7 +27,9 @@ Johns’ and “Sarahs” top the list. Can you think of an iconic film that fea
 While John and Sarah are by far the most popular, in more general terms we can see that female first names are more evenly distributed than those given to the male characters. Among the latter, John clearly stands out, being given more than twice as many times as ‘George’, the second most common male first name.
 Let's continue by analysing how the most common first names vary according to the country of origin of the films, in order to see whether these choices are influenced by different cultures.
 
-PLOT TOP 10 NAMES COUNTRY
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/worldmap.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
 
 We can see here that in the English-speaking industries, the first name ‘John’ is most frequently attributed to male characters, while female first names show greater diversity. This confirms the observations made in the previous graphs: female first names tend to be more widely distributed than male first names, where ‘John’ stands out. As far as non-English-speaking countries are concerned, we can see that the most common first names used by the characters are often of local origin.
 
@@ -37,7 +39,9 @@ Now that we've set the scene, let's take a closer look at the links between the 
 
 Naturally, in order to draw up a profile of a character from their name, it is essential to start by identifying their gender: male or female. At first sight, this may seem obvious. However, among the thousands of first names that exist, what is it that makes a first name perceived as masculine rather than feminine? With this in mind, we have undertaken an analysis of first names by looking at the notable differences in their composition between feminine and masculine first names. In the graph below, we compare the first and last letters of female first names with those of male first names.
 
-PLOT FIRST LAST LETTER
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/first_and_last_letter_by_gender.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
 
 Several significant differences emerge: Female names are much more likely to end with an ‘a’ or ‘e’ compared to male names. To further explore this observation, we conducted chi-square tests to compare the distributions of initial and final letters between male and female names. The results show that certain parameters, such as the presence of an ‘a’, ‘d’, ‘e’, or ‘s’ at the end of a name, help distinguish male names from female names with a confidence level greater than 95%. Additionally, by examining the common distribution, we find that nearly 15 times more female names start and end with an ‘a’ compared to male names, which further reinforces the distinct patterns observed. Perfect! We now have a first clue to avoid imagining John as Sarah or Sarah as John… it’s a great start !
 
@@ -50,7 +54,7 @@ Tastes and trends evolve over the years: the names of your grandparents are like
 But then, can we associate certain names with specific age groups ? For example, do some names appear more frequently for an elderly person compared to a newborn ?
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_features_age.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_age.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 These graphs are not very expressive… this is probably not the right path to uncover the deepest secrets of Tarantino. However, we believe we have an explanation for this! The names of older people today are the names of younger people from the past. Taking this into account, it is normal not to find any significant difference between the names of characters from different age groups. Let’s try looking at the film genres instead.
@@ -61,14 +65,15 @@ Let's take a look at the differences between first names in different film genre
 
 To get a good idea of these differences, let's take a look at the most common first names for each film category:
 
-PLOT TOP 10 NAMES GENRE
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/top_10_name_movie_genre.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
 
 Sarah” and ‘John’ continue to be omnipresent in all categories, but we can see that popular first names change according to film genre. Let's analyze the syntactic characteristics of first names according to film type:
 
 BOX PLOT FATURES GENRE
 
 MOVIE GENRE FIRST LETTER
-
 MOVUE GENRE LAST LETTER
 
 Great results! Conclusive results! This heatmap tells us a lot about the remarkable differences between the syntaxes of first names present in different film genres. Boxes marked with an asterisk show pairs of film types with statistically different 'length' or 'vowel/consonant ratio' distributions (with 95% confidence) according to the Tukey test. 
