@@ -65,7 +65,5 @@ Several striking differences emerge: female first names end much more frequently
 ## VI. MODEL - autre titre
 
 
-
-
 ### Data Insights
 In order to see all the attributes we have analysed and their distribution, take a look at the ‘Our Dataset’ tab, where you will find a detailed overview of our data.
