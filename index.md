@@ -4,11 +4,13 @@ title: DISCOVER CHARACTERS' FEATURES BASED ON FIRST NAME
 cover-img: /assets/img/IMG_title.jpg
 ---
 
-## **WRITING THE SCENARIO...**
+## **STARTING THE SCENARIO...**
 
 When *Tarantino* makes his films, you might imagine that he starts with the most obvious choices: the **genre** of the film, the **plot** that will unfold, or the **scenes** that will surprise us. But among these big decisions, there's another, more subtle, but just as crucial: choosing the **characters' first names**. 
 
-![Django](assets/img/quentin-tarantino-peace.gif)
+<div class="text-center">
+  <img src="assets/images/quentin-tarantino-peacef.gif">
+</div>
 
 **Bill**, **Rick**, **Django**... how does he make his choice? Is it really a matter of chance, or does each name conceal a clue to the character's identity?  
 Take the name *“Jacky”*: do you imagine a rebellious teenager, an adorable Canadian grandmother, or a *“badass”* woman? It's interesting to note that some first names make us think of certain **stereotypes** or specific **character traits**. But what do these names reveal about the characters themselves? In the universe of cinema, each first name can have a considerable impact on the way we perceive a character.  
@@ -198,6 +200,8 @@ To achieve this, we carried out a **sentimental analysis** for each first name i
 
 Our sentimental analysis enabled us to classify the first names into **5 different categories**:
 **Extraordinary**, we can finally put labels on our first names: **“Very Good Guy”**, **“Good Guy”**, **“Neutral”**, **“Bad Guy”** or **“Very Bad Guy”**. 
+
+
 
 So what are the names of the greatest **villains** and those of the most **lovable characters**? Let's take a look:
 
