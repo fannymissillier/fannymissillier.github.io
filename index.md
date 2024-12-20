@@ -75,6 +75,7 @@ Several striking differences emerge: female first names end much more frequently
 <div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/polarity_distribution.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
+
 <div style="border: 5px solid #34495e; border-radius: 15px; padding: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/sentiment_analysis_overview.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
