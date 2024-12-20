@@ -42,7 +42,7 @@ Now that we've set the scene, let's take a closer look at the links between the 
 Naturally, in order to draw up a profile of a character from their name, it is essential to start by identifying their gender: male or female. At first sight, this may seem obvious. However, among the thousands of first names that exist, what is it that makes a first name perceived as masculine rather than feminine? With this in mind, we have undertaken an analysis of first names by looking at the notable differences in their composition between feminine and masculine first names. In the graph below, we compare the first and last letters of female first names with those of male first names.
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/top10_names_country.html" width="100%" height="500" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/first_last_letter.html" width="100%" height="500" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 Several significant differences emerge: Female names are much more likely to end with an ‘a’ or ‘e’ compared to male names. To further explore this observation, we conducted chi-square tests to compare the distributions of initial and final letters between male and female names. The results show that certain parameters, such as the presence of an ‘a’, ‘d’, ‘e’, or ‘s’ at the end of a name, help distinguish male names from female names with a confidence level greater than 95%. Additionally, by examining the common distribution, we find that nearly 15 times more female names start and end with an ‘a’ compared to male names, which further reinforces the distinct patterns observed. Perfect! We now have a first clue to avoid imagining John as Sarah or Sarah as John… it’s a great start !
@@ -56,7 +56,7 @@ Tastes and trends evolve over the years: the names of your grandparents are like
 But then, can we associate certain names with specific age groups ? For example, do some names appear more frequently for an elderly person compared to a newborn ?
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-    <iframe src="{{ site.baseurl }}/assets/plots/first_last_letter.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/box_plot_features_age.html" width="100%" height="800" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
 These graphs are not very expressive… this is probably not the right path to uncover the deepest secrets of Tarantino. However, we believe we have an explanation for this! The names of older people today are the names of younger people from the past. Taking this into account, it is normal not to find any significant difference between the names of characters from different age groups. Let’s try looking at the film genres instead.
