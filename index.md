@@ -17,7 +17,7 @@ PETIT JEU
 Bravo à vous si vous avez bien visualisé le personnage! Si ce n’est pas le cas, ne vous en faites pas. Nous allons maintenant vous faire voyager à travers nos analyses afin de vous montrer les différentes manières de prédire les caractéristiques d’un personnage à l’aide de son prénom.
 Preview: Pour commencer, prenons connaissance de quelques informations intéressantes concernant les prénoms les plus distribués dans les films. Tout d’abord, regardons quels sont les prénoms les plus présents dans notre dataset:
 
-<iframe src="{{ site.baseurl }}/assets/plots/top1000_names.html" width="100%" height="800" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plots/plot_top1000_names.html" width="100%" height="800" frameborder="0"></iframe>
 
 Les “John” et les “Sarah” prennent la première place du podium. Pourriez vous penser à un film qui contient les prénoms de nos deux gagnants? Un petit indice: “Hasta La Vista Baby”..
 

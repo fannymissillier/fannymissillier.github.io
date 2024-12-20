@@ -6,11 +6,11 @@ layout: null
 
 :root {
   /* config file CSS variables */
-  --page-col: {{ site.page-col | default: "#FFFFFF" }} !important;
-  --text-col: {{ site.text-col | default: "#FFFFFF" }} !important;
-  --link-col: {{ site.link-col | default: "#FFFFFF" }} !important;
-  --hover-col: {{ site.hover-col | default: "#FFFFFF" }} !important;
-  --navbar-col: {{ site.navbar-col | default: "#FFFFFF" }} !important;
+  --page-col: {{ site.page-col | default: "#FFFFFF" }} 
+  --text-col: {{ site.text-col | default: "#FFFFFF" }} 
+  --link-col: {{ site.link-col | default: "#FFFFFF" }} 
+  --hover-col: {{ site.hover-col | default: "#FFFFFF" }} 
+  --navbar-col: {{ site.navbar-col | default: "#FFFFFF" }} 
   --navbar-text-col: {{ site.navbar-text-col | default: "#FFFFFF" }};
   --navbar-border-col: {{ site.navbar-border-col | default: "#FFFFFF" }};
   --footer-col: {{ site.footer-col | default: "#000000" }} !important;
