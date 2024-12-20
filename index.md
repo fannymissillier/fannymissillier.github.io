@@ -79,17 +79,24 @@ MOVUE GENRE LAST LETTER
 Great results! Conclusive results! This heatmap tells us a lot about the remarkable differences between the syntaxes of first names present in different film genres. Boxes marked with an asterisk show pairs of film types with statistically different 'length' or 'vowel/consonant ratio' distributions (with 95% confidence) according to the Tukey test. 
 We can now find our way between 'Terminator' characters and 'La La Land' characters. We're beginning to know a lot about character names... but let's not stop there - the most interesting is yet to come!
 
+## IV. ORIGIN ANALYSIS - autre titre
+
+Our dataset doesn't show the ethnic origins of the characters' first names. This is where the expertise of the AdadaSurMonBidet team comes in. 
+We found an additional dataset (“Name Ethnicity Dataset” in the 'Resources' tab) that includes almost 14,000 first names with their ethnic origin. We developed a predictive model based on this additional dataset, so that we could generalize to our entire dataset. Impressive, isn't it? With an accuracy of 72%, we were able to establish the ethnic origins of our characters' first names for further research. Our categories for origins are: “Slavic”, “Romance”, “East Asian”, “English-Speaking” and “Hispanic”. 
+
 Films use culturally specific first names to reinforce the authenticity of their context. Clichés about certain populations are used in the choice of characters' first names to reinforce certain character traits. So it's interesting to see if it's possible to make links between first names and the geographical origin of the first name, in order to better imagine our famous mystery character whose first name we only know.
 We have focused our analysis on the lexical study of first names according to their origin, as we feel this is the most relevant and interesting choice. 
 
 We began our study by looking at the distributions of the first and last letters of first names. We performed a statistical study using the CHI-2 test to determine the most significant elements. Here are the graphs we obtained, showing the distributions of origins for the most significant elements (i.e. the elements for which the distributions differ the most):
 
-SIGNIFICANT LETTER FOR ORIGIN
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/first_last_letter_by_origin.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
 
 This graph clearly shows that the first and last letters of first names are very good indicators of the origin of a given name. Could we have guessed it? Who is the Spanish character between “Pedro” and “Ivan”? It's intuitive, of course, but it's always good to trust good statistics!
 Letters with accents are called diacritical letters. This is a very interesting and effective way of determining the origin of a given name. We've selected the 4 most significant ones to illustrate this:
 
-PDIACRITICS LETTER FOR ORIGIN
+DIACRITICS LETTER FOR ORIGIN
 
 This bar plot is very telling and shows that it is possible to isolate an origin thanks to the presence of certain diacritical letters.
 
@@ -100,12 +107,6 @@ PLOT PHONETIC ORIGIN
 This analysis is useful, but we expected it to be more telling. We observe that names of Hispanic and Romance origin contain more liquid consonants (such as [l] and [r]), while Slavic and English names show a greater presence of plosives (such as [p] and [t]). Nasals (such as [m] and [n]) are particularly frequent in Slavic and Hispanic names, but less so in Asian names. On the whole, the phonetic structures of names reflect the specific features of each origin.
 
 We now know how to recognize a character's origin from his or her first name. Now we want to know if it's a nice character we're going to get attached to, or a disgusting one who's going to disgust us.
-
-## IV. ORIGIN ANALYSIS - autre titre
-
-Our dataset doesn't show the ethnic origins of the characters' first names. This is where the expertise of the AdadaSurMonBidet team comes in. 
-We found an additional dataset (“Name Ethnicity Dataset” in the 'Resources' tab) that includes almost 14,000 first names with their ethnic origin. We developed a predictive model based on this additional dataset, so that we could generalize to our entire dataset. Impressive, isn't it? With an accuracy of 72%, we were able to establish the ethnic origins of our characters' first names for further research. Our categories for origins are: “Slavic”, “Romance”, “East Asian”, “English-Speaking” and “Hispanic”. 
-
 
 ## V. SENTIMENTAL ANALYSIS ANALYSIS - autre titre
 
