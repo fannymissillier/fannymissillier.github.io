@@ -118,7 +118,10 @@ So, to better understand these connections, let’s explore the **correlations**
 
 Let’s analyze the **syntactic characteristics** of first names according to **film type**:
 
-PLOT DE ZAC
+<div style="display: flex; justify-content: space-around;">
+  <img src="V/C_diff.jpeg" alt="Image 1" width="45%" />
+  <img src="V/C_length.jpeg" alt="Image 2" width="45%" />
+</div>
 
 **Great results!** **Conclusive results!** 
 
