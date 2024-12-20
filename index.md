@@ -79,7 +79,7 @@ Additionally, by examining the common distribution, we find that nearly **15 tim
 
 ## II. AGE ANALYSIS - autre titre
 
-GIF d’un grand-père dans un film
+![Django](assets/img/quentin-tarantino-peace.gif)
 
 **Tastes** and **trends** evolve over the years: the names of your grandparents are likely very different from those of your younger cousins. What was original in the past is now considered **traditional**, and this evolution also influences the way characters are named in *cinema*.
 
