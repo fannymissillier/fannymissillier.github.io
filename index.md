@@ -101,5 +101,7 @@ These graphs are not very expressive… this is probably not the right path to u
 
 ## VI. MODEL - autre titre
 
+{% include predictive_model.html %}
+
 ### Data Insights
 In order to see all the attributes we have analysed and their distribution, take a look at the ‘Our Dataset’ tab, where you will find a detailed overview of our data.

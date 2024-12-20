@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Your Model</title>
+</head>
+<body>
+    <h1>Model Prediction</h1>
+    <form id="prediction-form">
+        <label for="input-name">Enter a word (e.g., a name):</label>
+        <input type="text" id="input-name" placeholder="Type here..." required>
+        <button type="submit">Predict</button>
+    </form>
+    <h2>Result:</h2>
+    <div id="result">
+        <p>No result yet.</p>
+    </div>
+
+    <script>
+        // JavaScript to handle the form submission and API call
+        document.getElementById('prediction-form').addEventListener('submit', async (event) => {
+            event.preventDefault(); // Prevent form submission reload
+            const name = document.getElementById('input-name').value;
+
+            // Send input to backend
+            try {
+                const response = await fetch('http://127.0.0.1:5000/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ name: name }),
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    document.getElementById('result').innerHTML = `
+                        <p><strong>Name:</strong> ${data.name}</p>
+                        <p><strong>Genres:</strong> ${data.genres.join(', ')}</p>
+                        <p><strong>Gender:</strong> ${data.gender}</p>
+                        <p><strong>Age:</strong> ${data.age}</p>
+                        <p><strong>Kindness:</strong> ${data.kindness}</p>
+                        <p><strong>Origin:</strong> ${data.origin}</p>
+                    `;
+                } else {
+                    const error = await response.json();
+                    document.getElementById('result').innerHTML = `
+                        <p><strong>Error:</strong> ${error.error}</p>
+                    `;
+                }
+            } catch (err) {
+                document.getElementById('result').innerHTML = `
+                    <p><strong>Error:</strong> Unable to connect to the server.</p>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>
