@@ -1,1 +1,2 @@
-web: python assets/model/app.py
+web: gunicorn assets.model.app:app
+
