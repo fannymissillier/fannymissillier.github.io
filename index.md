@@ -211,7 +211,7 @@ So what are the names of the greatest **villains** and those of the most **lovab
     <iframe src="{{ site.baseurl }}/assets/plots/sunburst_good_bad_girls.html" class="iframe-plot"></iframe>
   </div>
   <div id="plot-women" class="plot-container">
-    <iframe src="{{ site.baseurl }}/assets/plots/sundburst_good_bad_guy.html" class="iframe-plot"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/sunburst_good_bad_guy.html" class="iframe-plot"></iframe>
   </div>
 </div>
 
