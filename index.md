@@ -166,7 +166,9 @@ This graph clearly shows that the **first** and **last letters** of first names 
 
 **Letters with accents** are called **diacritical letters**. This is a very interesting and effective way of determining the origin of a given name. We've selected the **4 most significant** ones to illustrate this:
 
-DIACRITICS LETTER FOR ORIGIN
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/diacritic_origin.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
 
 This **bar plot** is very telling and shows that it is possible to isolate an **origin** thanks to the presence of certain **diacritical letters**.
 
