@@ -118,20 +118,31 @@ We can now find our way between **‘Terminator’** characters and **‘La La L
 
 ## IV. ORIGIN ANALYSIS - autre titre
 
-Our dataset doesn't show the ethnic origins of the characters' first names. This is where the expertise of the AdadaSurMonBidet team comes in. 
-We found an additional dataset (“Name Ethnicity Dataset” in the 'Resources' tab) that includes almost 14,000 first names with their ethnic origin. We developed a predictive model based on this additional dataset, so that we could generalize to our entire dataset. Impressive, isn't it? With an accuracy of 72%, we were able to establish the ethnic origins of our characters' first names for further research. Our categories for origins are: “Slavic”, “Romance”, “East Asian”, “English-Speaking” and “Hispanic”. 
+Notre jeu de données ne montre pas les **origines ethniques** des prénoms des personnages. C’est là que l'expertise de l’équipe **AdadaSurMonBidet** intervient. Nous avons trouvé un jeu de données supplémentaire (« **Name Ethnicity Dataset** » dans l'onglet 'Resources') qui comprend près de **14 000 prénoms** avec leur origine ethnique. Nous avons développé un modèle **prédictif** basé sur ce jeu de données supplémentaire, afin de pouvoir le généraliser à l'ensemble de notre jeu de données. 
 
-Films use culturally specific first names to reinforce the authenticity of their context. Clichés about certain populations are used in the choice of characters' first names to reinforce certain character traits. So it's interesting to see if it's possible to make links between first names and the geographical origin of the first name, in order to better imagine our famous mystery character whose first name we only know.
-We have focused our analysis on the lexical study of first names according to their origin, as we feel this is the most relevant and interesting choice. 
+**Impressionnant**, non ? Avec une précision de **72%**, nous avons pu établir les origines ethniques des prénoms de nos personnages pour des recherches ultérieures. Nos catégories d'origines sont :  
+- **Slaves**  
+- **Romance**  
+- **Asie de l'Est**  
+- **Anglophones**  
+- **Hispaniques**
 
-We began our study by looking at the distributions of the first and last letters of first names. We performed a statistical study using the CHI-2 test to determine the most significant elements. Here are the graphs we obtained, showing the distributions of origins for the most significant elements (i.e. the elements for which the distributions differ the most):
+Les films utilisent des prénoms **culturellement spécifiques** pour renforcer l'**authenticité** de leur contexte. Les clichés sur certaines populations sont utilisés dans le choix des prénoms des personnages pour accentuer certains traits de caractère. Il est donc intéressant de voir s'il est possible de faire des liens entre les prénoms et **l'origine géographique** du prénom, afin de mieux imaginer notre célèbre **personnage mystérieux** dont nous ne connaissons que le prénom.  
+
+Nous avons axé notre analyse sur l'**étude lexicale** des prénoms selon leur origine, car nous estimons que c’est le choix le plus **pertinent** et **intéressant**.
+
+Nous avons commencé notre étude en examinant les distributions des **premières** et **dernières lettres** des prénoms. Nous avons effectué une étude statistique à l’aide du test du **CHI-2** pour déterminer les éléments les plus significatifs. Voici les graphiques que nous avons obtenus, montrant les distributions des origines pour les éléments les plus significatifs (c'est-à-dire les éléments pour lesquels les distributions diffèrent le plus) :
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/first_last_letter_by_origin.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
-This graph clearly shows that the first and last letters of first names are very good indicators of the origin of a given name. Could we have guessed it? Who is the Spanish character between “Pedro” and “Ivan”? It's intuitive, of course, but it's always good to trust good statistics!
-Letters with accents are called diacritical letters. This is a very interesting and effective way of determining the origin of a given name. We've selected the 4 most significant ones to illustrate this:
+This graph clearly shows that the **first** and **last letters** of first names are very good indicators of the **origin** of a given name. Could we have guessed it? Who is the **Spanish character** between **“Pedro”** and **“Ivan”**? It’s intuitive, of course, but it’s always good to trust **good statistics**!
+
+---
+
+**Letters with accents** are called **diacritical letters**. This is a very interesting and effective way of determining the origin of a given name. We've selected the **4 most significant** ones to illustrate this:
+
 
 DIACRITICS LETTER FOR ORIGIN
 
