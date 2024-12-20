@@ -159,10 +159,10 @@ Extraordinary, we can finally put labels on our first names: “Very Good Guy”
 
 <div class="tab-content">
   <div id="plot-men" class="plot-container active">
-    <iframe src="{{ site.baseurl }}/assets/plots/plot_men.html" class="iframe-plot"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/sunburst_good_bad_guy.html" class="iframe-plot"></iframe>
   </div>
   <div id="plot-women" class="plot-container">
-    <iframe src="{{ site.baseurl }}/assets/plots/plot_women.html" class="iframe-plot"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plots/sunburst_good_bad_girls.html" class="iframe-plot"></iframe>
   </div>
 </div>
 
