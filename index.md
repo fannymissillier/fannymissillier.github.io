@@ -65,7 +65,7 @@ As far as **non-English-speaking countries** are concerned, we can see that the 
 
 Now that we've set the scene, let's take a closer look at the **links** between the characters' first names and their **attributes**.
 
-## I. GENDER ANALYSIS - autre titre
+## I. GENDER ANALYSIS
 
 Naturally, in order to draw up a **profile** of a character from their name, it is essential to start by identifying their **gender**: *male* or *female*. At first sight, this may seem obvious. However, among the thousands of first names that exist, what is it that makes a first name perceived as *masculine* rather than *feminine*? 
 
@@ -86,7 +86,7 @@ Additionally, by examining the common distribution, we find that nearly **15 tim
 *Perfect!* We now have a first clue to avoid imagining **John** as **Sarah** or **Sarah** as **John**… it’s a great start!
 
 
-## II. AGE ANALYSIS - autre titre
+## II. AGE ANALYSIS
 
 **Tastes** and **trends** evolve over the years: the names of your grandparents are likely very different from those of your younger cousins. What was original in the past is now considered **traditional**, and this evolution also influences the way characters are named in *cinema*.
 
@@ -100,7 +100,7 @@ These graphs are not very **expressive**… this is probably not the right path 
 
 The names of **older people** today are the names of **younger people** from the past. Taking this into account, it is normal not to find any significant difference between the names of characters from different **age groups**. 
 
-## III. MOVIE GENRES ANALYSIS - autre titre
+## III. MOVIE GENRES ANALYSIS
 
 IMAGE DE ROMEO ET JULIETTE (ROMEO) ET PERCIVAL
 
@@ -186,7 +186,7 @@ This analysis is useful, but we expected it to be more **telling**. We observe t
 
 We now know how to recognize a character's **origin** from his or her **first name**. Now we want to know if it's a **nice character** we're going to get attached to, or a **disgusting one** who's going to disgust us.
 
-## V. SENTIMENTAL ANALYSIS ANALYSIS - autre titre
+## V. SENTIMENTAL ANALYSIS ANALYSIS
 
 Which of these two names, **“Toby”** and **“Lucifer”**, would you give to a great villain? Which would you give to a **sympathetic** and **generous** character? I think we agree...
 
