@@ -88,23 +88,33 @@ The names of **older people** today are the names of **younger people** from the
 
 ## III. MOVIE GENRES ANALYSIS - autre titre
 
-Let's take a look at the differences between first names in different film genres. Certain first names are associated with specific types of character, and are often found in the same categories of film. For example, it's hard to imagine a character whose first name is “Romeo” being anything but romantic, passionate and desperate for love. Or it's hard to imagine a rude, mediocre and unathletic “Percival”. As a result, these two characters are often associated with the “Romance” and “Action & Adventure” genres respectively. With this in mind, let's take a look at the correlations between first names and film categories.
+IMAGE DE ROMEO ET JULIETTE (ROMEO) ET PERCIVAL
 
-To get a good idea of these differences, let's take a look at the most common first names for each film category:
+You've probably already noticed that certain **first names** seem to be associated with **stereotypes** and often appear in the same categories of films. For example, it's hard to imagine a character named **‘Romeo’** being anything other than romantic, passionate, and desperate for love. Similarly, it’s almost impossible to picture a **‘Percival’** as rude, mediocre, and unathletic. 
+
+And it's no **coincidence**! These names are often used to embody specific **archetypes** in films. In fact, they frequently appear in the **‘Romance’** and **‘Action & Adventure’** genres, respectively. 
+
+So, to better understand these connections, let’s explore the **correlations** between **first names** and **film categories**, starting by looking at the most common **first names** in each genre:
+
 
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/top_10_names_by_movie_genre.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
-Sarah” and ‘John’ continue to be omnipresent in all categories, but we can see that popular first names change according to film genre. Let's analyze the syntactic characteristics of first names according to film type:
+**Sarah** and **‘John’** continue to be omnipresent in all categories, but we can see that popular first names change according to **film genre**. 
 
-BOX PLOT FATURES GENRE
+---
 
-MOVIE GENRE FIRST LETTER
-MOVUE GENRE LAST LETTER
+Let’s analyze the **syntactic characteristics** of first names according to **film type**:
 
-Great results! Conclusive results! This heatmap tells us a lot about the remarkable differences between the syntaxes of first names present in different film genres. Boxes marked with an asterisk show pairs of film types with statistically different 'length' or 'vowel/consonant ratio' distributions (with 95% confidence) according to the Tukey test. 
-We can now find our way between 'Terminator' characters and 'La La Land' characters. We're beginning to know a lot about character names... but let's not stop there - the most interesting is yet to come!
+PLOT DE ZAC
+
+**Great results!** **Conclusive results!** 
+
+This **heatmap** tells us a lot about the remarkable differences between the **syntaxes** of first names present in different **film genres**. Boxes marked with an asterisk show pairs of film types with statistically different **'length'** or **'vowel/consonant ratio** distributions (with **95% confidence**) according to the **Tukey test**.
+
+We can now find our way between **‘Terminator’** characters and **‘La La Land’** characters, *fiouf*... We're beginning to know a lot about character names... but let’s not stop there — the most interesting is yet to come!
+
 
 ## IV. ORIGIN ANALYSIS - autre titre
 
