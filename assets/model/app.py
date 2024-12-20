@@ -34,4 +34,7 @@ def predict_route():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Use Heroku's dynamic port and ensure the app runs in production mode
+    port = int(os.environ.get('PORT', 5000))  # Use Heroku's $PORT environment variable
+    app.run(host='0.0.0.0', port=port, debug=True)  # Set host to '0.0.0.0' for external access
+
