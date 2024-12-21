@@ -250,6 +250,14 @@ One hypothesis to explain this lack of evidence is that the **dataset on movies*
 
 Additionally, this bias is evident in the **underrepresentation** of **Russian movies**, among others, in the dataset, as reflected in the disproportionate number of films produced per country.
 
+We examined American films released during the Cold War to see if a trend in the origins emerge. This naturally leads us to a broader question: how have the origins of characters in American movies evolved over the years? By observing trends across decades, particularly during politically charged periods like the Cold War, we can investigate whether certain ethnicities were more prominently featured as heroes or villains. The following graph explores these trends, providing a deeper look at the representation of different origins in American cinema over time.
+
+<div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <iframe src="{{ site.baseurl }}/assets/plots/ethnicity_over_time.html" width="100%" height="400" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
+</div>
+
+Excellent ! We can deduct some useful information from this graph, let’s break it down. This plot shows a global increase in the number of characters over time. This rise can be attributed to two factors: firstly, an increase in the number of movies produced in the USA, and secondly, the underrepresentation of older movies in the dataset. A noticeable dip in the total number of characters occurs in 2010, which reflects a gap in the collection of movies from that period. What stands out is the growth of non-English origins over time. This trend suggests that from the 1980s onward, there was a movement towards greater diversity in character names within the American film industry. In particular, the prevalence of Romance and Slavic-origin names surged, and by 2005, nearly half of the characters' origins were non-English.
+
 ## Conclusion
 
 **Congratulations**, you’ve reached the end of our **data-driven guide** to discovering **character features** based on names! We took you on a journey through the hidden power of **linguistics**, **phonetics**, and the broader world of **words**, and we hope you’ve learned something **fascinating** along the way.
