@@ -27,17 +27,12 @@ If I told you that *Tarantino's* next character had **your first name**, what wo
 
 Let's start with some **interesting facts** about the most common first names used in movies. First of all, let's take a look at the most common first names in our dataset:
 
-<div class="tabs">
-  <button class="tab-button active" data-target="plot-women">Femmes</button>
-  <button class="tab-button" data-target="plot-men">Hommes</button>
-</div>
-
-<div class="tab-content">
-  <div id="plot-women" class="plot-container active">
-    <iframe src="{{ site.baseurl }}/assets/plots/1000_most_popular_female_names.html" class="iframe-plot"></iframe>
+<div class="graphs-container">
+  <div class="graph-container">
+    <iframe src="/assets/plots/1000_most_popular_female_names.html" class="iframe-plot"></iframe>
   </div>
-  <div id="plot-men" class="plot-container">
-    <iframe src="{{ site.baseurl }}/assets/plots/1000_most_popular_male_names.html" class="iframe-plot"></iframe>
+  <div class="graph-container">
+    <iframe src="/assets/plots/1000_most_popular_male_names.html" class="iframe-plot"></iframe>
   </div>
 </div>
 
