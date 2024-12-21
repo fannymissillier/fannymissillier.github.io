@@ -182,7 +182,7 @@ Which of these two names, **“Toby”** and **“Lucifer”**, would you give t
 
 We've all been conditioned to think of some names as synonymous with **kindness** and **trust**, while others symbolize **wickedness** and **terror**. Let's continue our study to find out if there's a **significant difference** between the names of **nice characters** and the names of **nasty characters**.
 
-### **Sentimental Analysis**
+**Sentimental Analysis**
 
 Our main dataset does not include information on character **morality**. However, we do have access to all the **movie summaries** in our dataset. We therefore came up with the idea of establishing our characters' **values** ourselves, so that we could study the link between these and their **first names**. 
 
@@ -190,8 +190,6 @@ To achieve this, we carried out a **sentimental analysis** for each first name i
 
 Our sentimental analysis enabled us to classify the first names into **5 different categories**:
 **Extraordinary**, we can finally put labels on our first names: **“Very Good Guy”**, **“Good Guy”**, **“Neutral”**, **“Bad Guy”** or **“Very Bad Guy”**. 
-
-
 
 So what are the names of the greatest **villains** and those of the most **lovable characters**? Let's take a look:
 
