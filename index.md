@@ -38,7 +38,9 @@ Let's start with some **interesting facts** about the most common first names us
 
 **Johns** and **Sarahs** top the list. Can you think of an iconic film that features these two names? Here's a hint: **‘Hasta La Vista Baby’**... 
 
-### AFFICHE "TERMINATOR"
+<div class="text-center">
+  <img src="assets/img/Terminator.jpg" alt="Terminator">
+</div>
 
 While **John** and **Sarah** are by far the most popular, in more general terms we can see that *female first names* are more evenly distributed than those given to the *male characters*. Among the latter, **John** clearly stands out, being given more than twice as many times as **‘George’**, the second most common male first name.
 
