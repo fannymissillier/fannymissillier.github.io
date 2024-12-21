@@ -3,29 +3,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Your Model</title>
     <style>
+        /* Fond global du site */
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9; /* Global background */
+            background-color: #f4f4f9; /* Couleur de fond neutre */
             margin: 0;
             padding: 20px;
+            text-align: center; /* Centrer par défaut */
         }
 
+        /* Style du conteneur de la carte d'identité */
         .card-container {
             max-width: 400px;
-            margin: auto;
+            margin: 20px auto; /* Centré horizontalement */
             padding: 20px;
             background: #fff;
             border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border: 2px solid #ddd;
             position: relative;
-            background-image: url('path_to_your_background_image.jpg'); /* Specific background for the card */
+            background-image: url('path_to_your_background_image.jpg'); /* Remplacer par l'image de fond souhaitée */
             background-size: cover;
             background-position: center;
+            color: #333;
         }
 
+        /* Titres */
         h3 {
-            text-align: center; /* Only the main title should be centered */
             font-size: 24px;
             color: #333;
             margin-bottom: 20px;
@@ -35,7 +39,7 @@
             font-size: 20px;
             color: #333;
             margin-bottom: 10px;
-            text-align: left; /* Align other headings to the left */
+            text-align: left; /* Garder les sous-titres alignés à gauche */
         }
 
         label {
@@ -43,6 +47,7 @@
             color: #555;
         }
 
+        /* Style de l'input */
         input[type="text"] {
             width: 100%;
             padding: 10px;
@@ -52,6 +57,7 @@
             font-size: 16px;
         }
 
+        /* Style du bouton */
         button {
             width: 100%;
             padding: 12px;
@@ -67,6 +73,7 @@
             background-color: #45a049;
         }
 
+        /* Résultats */
         #result {
             background: #f0f0f5;
             padding: 15px;
