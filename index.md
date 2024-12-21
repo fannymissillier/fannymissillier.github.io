@@ -128,7 +128,7 @@ This **heatmap** tells us a lot about the remarkable differences between the **s
 
 We can now find our way between **‘Terminator’** characters and **‘La La Land’** characters, *phewf*... We're beginning to know a lot about character names... but let’s not stop there — the most interesting is yet to come!
 
-## IV. ORIGIN ANALYSIS - Another Title
+## IV. ORIGIN ANALYSIS
 
 Our dataset does not show the **ethnic origins** of the characters' first names. This is where the expertise of the **AdadaSurMonBidet** team comes in. We found an additional dataset (**Name Ethnicity Dataset** in the 'Resources' tab) that includes nearly **14,000 first names** with their ethnic origin. We developed a **predictive model** based on this additional dataset so that we could generalize it to our entire dataset.
 
@@ -213,7 +213,7 @@ Now that we've familiarized ourselves with **sentimental analysis**, let's see i
 
 If you're a fan of **American espionage blockbusters**, you've probably noticed that the villains' names are, in most cases, not English-speaking... But can we say the same in the opposite direction? The idea immediately came to us to compare the presence of **Russian first names** for **American film villains** during the **Cold War**, and vice versa.
 
-### USA/URSS
+### Cold War on Screen
 
 We might wonder if we can identify broader historical or political trends through morality, character origin, and the country of film production.
 
