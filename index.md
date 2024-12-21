@@ -147,13 +147,12 @@ We focused our analysis on the **lexical study** of first names according to the
 
 We began our study by examining the distributions of the **first** and **last letters** of the names. We conducted a statistical study using the **CHI-2 test** to determine the most significant elements. Here are the graphs we obtained, showing the distributions of origins for the most significant elements (i.e., those for which the distributions differ the most):
 
-<div style="display: flex; justify-content: space-between; gap: 10px;">
-  <div style="flex: 1;">
-    <iframe src="/assets/plots/first_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
-  </div>
-  <div style="flex: 1;">
-    <iframe src="/assets/plots/last_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
-  </div>
+<div style="display: block; margin-bottom: 10px;">
+  <iframe src="/assets/plots/first_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
+</div>
+
+<div style="display: block;">
+  <iframe src="/assets/plots/last_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
 
 This graph clearly shows that the **first** and **last letters** of first names are very good indicators of the **origin** of a given name. Could we have guessed it? Who is the **Spanish character** between **“Pedro”** and **“Ivan”**? It’s intuitive, of course, but it’s always good to trust **good statistics**!
