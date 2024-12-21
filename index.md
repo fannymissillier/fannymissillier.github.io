@@ -145,17 +145,12 @@ We focused our analysis on the **lexical study** of first names according to the
 
 We began our study by examining the distributions of the **first** and **last letters** of the names. We conducted a statistical study using the **CHI-2 test** to determine the most significant elements. Here are the graphs we obtained, showing the distributions of origins for the most significant elements (i.e., those for which the distributions differ the most):
 
-<div class="tabs">
-  <button class="tab-button active" data-target="plot-first-letter">First Letter</button>
-  <button class="tab-button" data-target="plot-last-letter">Last Letter</button>
-</div>
-
-<div class="tab-content">
-  <div id="plot-first-letter" class="plot-container active">
-    <iframe src="{{ site.baseurl }}/assets/plots/first_letter_by_origin.html" class="iframe-plot"></iframe>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 1;">
+    <iframe src="/assets/plots/first_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
   </div>
-  <div id="plot-last-letter" class="plot-container">
-    <iframe src="{{ site.baseurl }}/assets/plots/last_letter_by_origin.html" class="iframe-plot"></iframe>
+  <div style="flex: 1;">
+    <iframe src="/assets/plots/last_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
   </div>
 </div>
 
