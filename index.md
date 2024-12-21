@@ -27,12 +27,21 @@ If I told you that *Tarantino's* next character had **your first name**, what wo
 
 Let's start with some **interesting facts** about the most common first names used in movies. First of all, let's take a look at the most common first names in our dataset:
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-  <div style="flex: 1; text-align: left;">
+<div class="graphs-container">
+  <div class="graph-container">
+    <iframe src="/assets/plots/1000_most_popular_female_names.html" class="iframe-plot"></iframe>
+  </div>
+  <div class="graph-container">
+    <iframe src="/assets/plots/1000_most_popular_male_names.html" class="iframe-plot"></iframe>
+  </div>
+</div>
+
+<div style="display: block; margin-bottom: 20px;">
+  <div style="text-align: left;">
     <p><strong>Johns</strong> and <strong>Sarahs</strong> top the list. Can you think of an iconic film that features these two names? Here's a hint: <strong>‘Hasta La Vista Baby’</strong>...</p>
   </div>
-  <div style="flex: 0 0 auto;">
-    <img src="assets/img/Terminator.jpg" alt="Terminator" style="width: 150px; height: auto;"/>
+  <div style="text-align: center;">
+    <img src="assets/img/Terminator.jpg" alt="Terminator" style="width: 250px; height: auto;"/>
   </div>
 </div>
 
@@ -138,12 +147,13 @@ We focused our analysis on the **lexical study** of first names according to the
 
 We began our study by examining the distributions of the **first** and **last letters** of the names. We conducted a statistical study using the **CHI-2 test** to determine the most significant elements. Here are the graphs we obtained, showing the distributions of origins for the most significant elements (i.e., those for which the distributions differ the most):
 
-<div style="display: block; margin-bottom: 5px;"> 
-  <iframe src="/assets/plots/first_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
-</div>
-
-<div style="display: block;">
-  <iframe src="/assets/plots/last_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+  <div style="flex: 1;">
+    <iframe src="/assets/plots/first_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
+  </div>
+  <div style="flex: 1;">
+    <iframe src="/assets/plots/last_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
+  </div>
 </div>
 
 This graph clearly shows that the **first** and **last letters** of first names are very good indicators of the **origin** of a given name. Could we have guessed it? Who is the **Spanish character** between **“Pedro”** and **“Ivan”**? It’s intuitive, of course, but it’s always good to trust **good statistics**!
