@@ -27,21 +27,12 @@ If I told you that *Tarantino's* next character had **your first name**, what wo
 
 Let's start with some **interesting facts** about the most common first names used in movies. First of all, let's take a look at the most common first names in our dataset:
 
-<div class="graphs-container">
-  <div class="graph-container">
-    <iframe src="/assets/plots/1000_most_popular_female_names.html" class="iframe-plot"></iframe>
-  </div>
-  <div class="graph-container">
-    <iframe src="/assets/plots/1000_most_popular_male_names.html" class="iframe-plot"></iframe>
-  </div>
-</div>
-
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
   <div style="flex: 1; text-align: left;">
     <p><strong>Johns</strong> and <strong>Sarahs</strong> top the list. Can you think of an iconic film that features these two names? Here's a hint: <strong>‘Hasta La Vista Baby’</strong>...</p>
   </div>
   <div style="flex: 0 0 auto;">
-    <img src="assets/img/Terminator.jpg" alt="Terminator" style="max-width: 100%; height: auto;"/>
+    <img src="assets/img/Terminator.jpg" alt="Terminator" style="width: 150px; height: auto;"/>
   </div>
 </div>
 
