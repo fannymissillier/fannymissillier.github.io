@@ -115,9 +115,11 @@ So, to better understand these connections, let’s explore the **correlations**
 
 Let’s analyze the **syntactic characteristics** of first names according to **film type**:
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="/assets/plots/V_C_diff.jpeg" alt="Image 1" width="45%" />
-  <img src="/assets/plots/V_C_length.jpeg" alt="Image 2" width="45%" />
+<div style="text-align: center;">
+  <img src="/assets/plots/V_C_diff.jpeg" alt="Image 1" width="80%" />
+</div>
+<div style="text-align: center;">
+  <img src="/assets/plots/V_C_length.jpeg" alt="Image 2" width="80%" />
 </div>
 
 **Great results!** **Conclusive results!** 
