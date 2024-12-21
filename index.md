@@ -148,7 +148,6 @@ We began our study by examining the distributions of the **first** and **last le
 <div style="display: block; margin-bottom: 20px;">
   <iframe src="/assets/plots/first_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
-
 <div style="display: block;">
   <iframe src="/assets/plots/last_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
