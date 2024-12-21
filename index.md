@@ -145,9 +145,10 @@ We focused our analysis on the **lexical study** of first names according to the
 
 We began our study by examining the distributions of the **first** and **last letters** of the names. We conducted a statistical study using the **CHI-2 test** to determine the most significant elements. Here are the graphs we obtained, showing the distributions of origins for the most significant elements (i.e., those for which the distributions differ the most):
 
-<div style="display: block; margin-bottom: 10px;">
+<div style="display: block; margin-bottom: 5px;"> 
   <iframe src="/assets/plots/first_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
+
 <div style="display: block;">
   <iframe src="/assets/plots/last_letter_by_origin.html" style="width: 100%; height: 500px; border: none;"></iframe>
 </div>
@@ -182,7 +183,7 @@ Which of these two names, **“Toby”** and **“Lucifer”**, would you give t
 
 We've all been conditioned to think of some names as synonymous with **kindness** and **trust**, while others symbolize **wickedness** and **terror**. Let's continue our study to find out if there's a **significant difference** between the names of **nice characters** and the names of **nasty characters**.
 
-**Sentimental Analysis**
+### **Hero, Villain or Something in between ?**
 
 Our main dataset does not include information on character **morality**. However, we do have access to all the **movie summaries** in our dataset. We therefore came up with the idea of establishing our characters' **values** ourselves, so that we could study the link between these and their **first names**. 
 
