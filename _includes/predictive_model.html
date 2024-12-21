@@ -5,7 +5,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
+            background-color: #f4f4f9; /* Arrière-plan global */
             margin: 0;
             padding: 20px;
         }
@@ -18,6 +18,10 @@
             border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border: 2px solid #ddd;
+            position: relative;
+            background-image: url('path_to_your_background_image.jpg'); /* Arrière-plan spécifique pour la carte */
+            background-size: cover;
+            background-position: center;
         }
 
         h3 {
