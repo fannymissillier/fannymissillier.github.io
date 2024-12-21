@@ -186,7 +186,7 @@ This analysis is useful, but we expected it to be more **telling**. We observe t
 
 We now know how to recognize a character's **origin** from his or her **first name**. Now we want to know if it's a **nice character** we're going to get attached to, or a **disgusting one** who's going to disgust us.
 
-## V. SENTIMENTAL ANALYSIS ANALYSIS
+## V. SENTIMENTAL ANALYSIS
 
 Which of these two names, **“Toby”** and **“Lucifer”**, would you give to a great villain? Which would you give to a **sympathetic** and **generous** character? I think we agree...
 
