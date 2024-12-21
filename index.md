@@ -97,8 +97,6 @@ The names of **older people** today are the names of **younger people** from the
 
 ## III. MOVIE GENRES ANALYSIS
 
-IMAGE DE ROMEO ET JULIETTE (ROMEO) ET PERCIVAL
-
 You've probably already noticed that certain **first names** seem to be associated with **stereotypes** and often appear in the same categories of films. For example, it's hard to imagine a character named **‘Romeo’** being anything other than romantic, passionate, and desperate for love. Similarly, it’s almost impossible to picture a **‘Percival’** as rude, mediocre, and unathletic. 
 
 And it's no **coincidence**! These names are often used to embody specific **archetypes** in films. In fact, they frequently appear in the **‘Romance’** and **‘Action & Adventure’** genres, respectively. 
@@ -183,7 +181,7 @@ Which of these two names, **“Toby”** and **“Lucifer”**, would you give t
 
 We've all been conditioned to think of some names as synonymous with **kindness** and **trust**, while others symbolize **wickedness** and **terror**. Let's continue our study to find out if there's a **significant difference** between the names of **nice characters** and the names of **nasty characters**.
 
-### **Hero, Villain or Something in between ?**
+#### **Hero, Villain or Something in between ?**
 
 Our main dataset does not include information on character **morality**. However, we do have access to all the **movie summaries** in our dataset. We therefore came up with the idea of establishing our characters' **values** ourselves, so that we could study the link between these and their **first names**. 
 
@@ -212,7 +210,7 @@ Now that we've familiarized ourselves with **sentimental analysis**, let's see i
 
 If you're a fan of **American espionage blockbusters**, you've probably noticed that the villains' names are, in most cases, not English-speaking... But can we say the same in the opposite direction? The idea immediately came to us to compare the presence of **Russian first names** for **American film villains** during the **Cold War**, and vice versa.
 
-### Cold War on Screen
+#### Cold War on Screen
 
 We might wonder if we can identify broader historical or political trends through morality, character origin, and the country of film production.
 
