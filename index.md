@@ -36,10 +36,13 @@ Let's start with some **interesting facts** about the most common first names us
   </div>
 </div>
 
-**Johns** and **Sarahs** top the list. Can you think of an iconic film that features these two names? Here's a hint: **‘Hasta La Vista Baby’**... 
-
-<div class="text-center">
-  <img src="assets/img/Terminator.jpg" alt="Terminator">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+  <div style="flex: 1; text-align: left;">
+    <p><strong>Johns</strong> and <strong>Sarahs</strong> top the list. Can you think of an iconic film that features these two names? Here's a hint: <strong>‘Hasta La Vista Baby’</strong>...</p>
+  </div>
+  <div style="flex: 0 0 auto;">
+    <img src="assets/img/Terminator.jpg" alt="Terminator" style="max-width: 100%; height: auto;"/>
+  </div>
 </div>
 
 While **John** and **Sarah** are by far the most popular, in more general terms we can see that *female first names* are more evenly distributed than those given to the *male characters*. Among the latter, **John** clearly stands out, being given more than twice as many times as **‘George’**, the second most common male first name.
@@ -77,7 +80,6 @@ The results show that certain parameters, such as the presence of an **‘a’**
 Additionally, by examining the common distribution, we find that nearly **15 times more female names** start and end with an **‘a’** compared to male names, which further reinforces the distinct patterns observed. 
 
 *Perfect!* We now have a first clue to avoid imagining **John** as **Sarah** or **Sarah** as **John**… it’s a great start!
-
 
 ## II. AGE ANALYSIS
 
